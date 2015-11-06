@@ -1,0 +1,6 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Reddit</os:ShortName>
+<os:Description>Search for subreddits on Reddit</os:Description>
+<os:Url type="text/html" method="GET" template="http://www.reddit.com/r/{searchTerms}" resultDomain="reddit.com">
+</os:Url>
+</SearchPlugin>

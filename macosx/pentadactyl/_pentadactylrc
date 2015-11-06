@@ -1,0 +1,56 @@
+set guioptions=''
+set showtabline=never
+set autocomplete=
+set maxitems=50
+set hintkeys=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+set showstatuslinks=
+set urlseparator='\|'
+highlight Hint background-color:blue;border:0px solid black;color:white;font-size:10px;padding-left:2px;padding-right:2px;
+highlight Hint[active] background-color:black;color:white;
+highlight CmdLine -append font-size:12px
+set! refcontrol.enabled=false
+set! permissions.default.image=2
+set defsearch=gg
+
+map <s> <C-v>s
+map <S-s> <C-v>S
+
+map <M-Tab> <Esc><C-v><C-b>
+map <M-1> <Esc>:set showstatuslinks=<CR>
+map <M-2> <Esc>:set showstatuslinks=command<CR>
+map <M-q> <Esc>:set! refcontrol.enabled=true<CR>
+map <M-w> <Esc>:set! refcontrol.enabled=false<CR>
+map <M-a> <Esc>:set showtabline=never<CR>
+map <M-s> <Esc>:set showtabline=always<CR>
+map <M-z> <Esc>:set! permissions.default.image=2<CR>
+map <M-x> <Esc>:set! permissions.default.image=0<CR>
+
+imap <M-Tab> <Esc><C-v><C-b>
+imap <M-1> <Esc>:set showstatuslinks=<CR>
+imap <M-2> <Esc>:set showstatuslinks=command<CR>
+imap <M-q> <Esc>:set! refcontrol.enabled=true<CR>
+imap <M-w> <Esc>:set! refcontrol.enabled=false<CR>
+imap <M-a> <Esc>:set showtabline=never<CR>
+imap <M-s> <Esc>:set showtabline=always<CR>
+imap <M-z> <Esc>:set! permissions.default.image=2<CR>
+imap <M-x> <Esc>:set! permissions.default.image=0<CR>
+
+tmap <M-Tab> <Esc><C-v><C-b>
+tmap <M-1> <Esc>:set showstatuslinks=<CR>
+tmap <M-2> <Esc>:set showstatuslinks=command<CR>
+tmap <M-q> <Esc>:set! refcontrol.enabled=true<CR>
+tmap <M-w> <Esc>:set! refcontrol.enabled=false<CR>
+tmap <M-a> <Esc>:set showtabline=never<CR>
+tmap <M-s> <Esc>:set showtabline=always<CR>
+tmap <M-z> <Esc>:set! permissions.default.image=2<CR>
+tmap <M-x> <Esc>:set! permissions.default.image=0<CR>
+
+cmap <M-Tab> <Esc><C-v><C-b>
+cmap <M-1> <Esc>:set showstatuslinks=<CR>
+cmap <M-2> <Esc>:set showstatuslinks=command<CR>
+cmap <M-q> <Esc>:set! refcontrol.enabled=true<CR>
+cmap <M-w> <Esc>:set! refcontrol.enabled=false<CR>
+cmap <M-a> <Esc>:set showtabline=never<CR>
+cmap <M-s> <Esc>:set showtabline=always<CR>
+cmap <M-z> <Esc>:set! permissions.default.image=2<CR>
+cmap <M-x> <Esc>:set! permissions.default.image=0<CR>

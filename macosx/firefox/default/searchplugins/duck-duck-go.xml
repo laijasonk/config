@@ -1,0 +1,6 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Duck Duck Go</os:ShortName>
+<os:Description>Search web with Duck Duck Go</os:Description>
+<os:Url type="text/html" method="GET" template="http://duckduckgo.com/?q={searchTerms}" resultDomain="duckduckgo.com">
+</os:Url>
+</SearchPlugin>

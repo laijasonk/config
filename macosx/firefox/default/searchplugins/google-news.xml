@@ -1,0 +1,6 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Google News</os:ShortName>
+<os:Description>Search the news on Google</os:Description>
+<os:Url type="text/html" method="GET" template="http://www.google.com/search?tbm=nws&amp;q={searchTerms}" resultDomain="google.com">
+</os:Url>
+</SearchPlugin>

@@ -1,0 +1,14 @@
+# /etc/skel/.bash_profile
+
+# This file is sourced by bash for login shells.  The following line
+# runs your .bashrc and is recommended by the bash info pages.
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+##
+# Your previous /Users/jlai/.bash_profile file was backed up as /Users/jlai/.bash_profile.macports-saved_2015-09-15_at_13:47:40
+##
+
+# MacPorts Installer addition on 2015-09-15_at_13:47:40: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
