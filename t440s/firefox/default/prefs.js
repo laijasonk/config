@@ -76,13 +76,21 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
 user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime", "1422429459790");
 user_pref("datareporting.policy.firstRunTime", "1422386220733");
+<<<<<<< HEAD
 user_pref("datareporting.sessions.current.activeTicks", 23);
 user_pref("datareporting.sessions.current.clean", true);
+=======
+user_pref("datareporting.sessions.current.activeTicks", 15);
+>>>>>>> 3b938a7156be95ace54a57c8362159f51cbfc82f
 user_pref("datareporting.sessions.current.firstPaint", 2319);
 user_pref("datareporting.sessions.current.main", 21);
 user_pref("datareporting.sessions.current.sessionRestored", 1668);
 user_pref("datareporting.sessions.current.startTime", "1446932495441");
+<<<<<<< HEAD
 user_pref("datareporting.sessions.current.totalTime", 1711);
+=======
+user_pref("datareporting.sessions.current.totalTime", 127);
+>>>>>>> 3b938a7156be95ace54a57c8362159f51cbfc82f
 user_pref("datareporting.sessions.currentIndex", 3428);
 user_pref("datareporting.sessions.previous.3420", "{\"s\":1446868808828,\"a\":256,\"t\":4967,\"c\":true,\"m\":116,\"fp\":93122,\"sr\":2357}");
 user_pref("datareporting.sessions.previous.3421", "{\"s\":1446874304867,\"a\":848,\"t\":6517,\"c\":true,\"m\":11,\"fp\":1394,\"sr\":1527}");
