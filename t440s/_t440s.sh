@@ -44,7 +44,7 @@ resetConfig $(pwd)/bash/_wallpaper2.jpg ~/.wallpaper2.jpg
 resetConfig $(pwd)/bash/_xinitrc ~/.xinitrc
 
 # elinks
-resetConfig $(pwd)/elinks/_elinks/_bookmarks.html ~/_bookmarks.html
+resetConfig $(pwd)/elinks/_elinks/_bookmarks.html ~/.bookmarks.html
 resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
@@ -100,5 +100,5 @@ resetConfig $(pwd)/vim/_vim/plugin ~/.vim/plugin
 resetConfig $(pwd)/xzgv/_xzgvrc ~/.xzgvrc
 
 # zathura
-resetConfig $(pwd)/zathura/zathurarc ~/config/zathura/zathurarc
+resetConfig $(pwd)/zathura/zathurarc ~/.config/zathura/zathurarc
 
