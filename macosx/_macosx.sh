@@ -4,33 +4,32 @@
 # directory to the appropriate path.
 
 resetConfig() {
-	remote="$1"
-	local="$2"
+	# handle input arguments
+	config="$1"
+	link="$2"
+	dirname=$(dirname -- "$link")
 
-	echo "    resetting $remote to $local"
+	echo "    resetting $config to $link"
 
-	if [ -f $local ]
+	# remove file if it exists
+	if [ -f "$link" ] || [ -d "$link" ]
 	then
-		echo "        removed $local"
-		rm $local
-	fi
-	if [ -d $local ] 
-	then
-		echo "        removed $local"
-		rm -R $local
+		rm -Rf -- "$link"
 	fi
 
-	if [ ! -d $(dirname $local) ]
+	# make the preceding directory if it does not exist
+	if [ ! -d "$dirname" ]
 	then
-		echo "        made directory $local"
-		mkdir -p $(dirname $local)
+		mkdir -p -- "$dirname"
 	fi
 
-	ln -s $remote $local
+	# link the remote config to the local link
+	ln -s "$config" "$link"
 }
 
 read -p "WARNING: Completely resets config for home directory [CTRL-C to quit] "
 
+# bash
 resetConfig $(pwd)/bash/_Xmodmap ~/.Xmodmap
 resetConfig $(pwd)/bash/_amethyst ~/.amethyst
 resetConfig $(pwd)/bash/_bash_logout ~/.bash_logout
@@ -40,22 +39,34 @@ resetConfig $(pwd)/bash/_dir_colors ~/.dir_colors
 resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
 
+# elinks
 resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
-resetConfig $(pwd)/firefox/default/searchplugins ~/library/Application*Support/Firefox/Profiles/default/searchplugins
-resetConfig $(pwd)/firefox/default/pref.js ~/library/Application*Support/Firefox/Profiles/default/pref.js
-resetConfig $(pwd)/firefox/profiles.ini ~/library/Application*Support/Firefox/profiles.ini
+# firefox
+resetConfig $(pwd)/firefox/default/searchplugins ~/library/Application\ Support/Firefox/Profiles/default/searchplugins
+resetConfig $(pwd)/firefox/default/prefs.js ~/library/Application\ Support/Firefox/Profiles/default/prefs.js
+resetConfig $(pwd)/firefox/profiles.ini ~/library/Application\ Support/Firefox/profiles.ini
 
+# newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 
+# pentadactyl
 resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
 
+# screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 
+# vifm
 resetConfig $(pwd)/vifm/_vifm/colors ~/.vifm/colors
 resetConfig $(pwd)/vifm/_vifm/vifmrc ~/.vifm/vifmrc
 
+# vim
 resetConfig $(pwd)/vim/_vimrc ~/.vimrc
-resetConfig $(pwd)/vim/_vim ~/.vim
+resetConfig $(pwd)/vim/_vim/autoload ~/.vim/autoload
+resetConfig $(pwd)/vim/_vim/bitmaps ~/.vim/bitmaps
+resetConfig $(pwd)/vim/_vim/colors ~/.vim/colors
+resetConfig $(pwd)/vim/_vim/doc ~/.vim/doc
+resetConfig $(pwd)/vim/_vim/README.mkd ~/.vim/README.mkd
+
