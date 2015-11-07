@@ -1,0 +1,11 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Google News</os:ShortName>
+<os:Description>Search Google for News</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Url type="text/html" method="GET" template="https://www.google.com/search">
+<Param name="tbm" value="nws"/>
+<Param name="authuser" value="0"/>
+<Param name="" value="0"/>
+<Param name="q" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>
