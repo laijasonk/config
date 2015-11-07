@@ -1,0 +1,20 @@
+[retriever]
+type = SimpleIMAPSSLRetriever
+server = outlook.office365.com
+username = jlai@uwyo.edu
+password = <password>
+
+[destination]
+type = Mboxrd
+path = ~/.mutt/mail/jason
+
+#[filter]
+#type = Filter_external
+#path = /usr/bin/spamassassin
+
+[options]
+verbose = 1
+received = true
+delivered_to = true
+delete = false
+read_all = false

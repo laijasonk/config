@@ -1,0 +1,3 @@
+#text/html; elinks -dump 1 -no-numbering -no-references %s; copiousoutput; nametemplate=%s.html
+#text/html; elinks -dump 1 -no-numbering %s; copiousoutput; nametemplate=%s.html
+text/html; elinks -dump 1 -no-numbering -no-references %s; copiousoutput; nametemplate=%s.html

@@ -1,0 +1,34 @@
+#set daemon 300
+set postmaster jason
+#set no bouncemail
+#set no spambounce
+#set properties ""
+
+# EXAMPLE
+#poll mail.server.org
+#	uidl #for keeping files on server
+#	with protocol POP3/IMAP #only POP and IMAP supported
+#	port 995 #not absolutely necessary
+#	and options no dns #gmail settings
+#	user "user@server" there with password "mypassword" #password not necessary
+#	ssl sslfingerprint "XX:XX:XX:XX:XX" #must extract fingerprint prior
+#	keep #for keeping files on server
+#	is "jason" here and wants mda "/usr/bin/procmail -d %T"
+#	options
+#	fetchall #grabs all (read and not read)
+#	ssl #turns on ssl
+
+poll uwmail.uwyo.edu
+	uidl
+	with protocol IMAP port 993 
+	user "jlai"
+	is "jason" here and wants mda "/usr/bin/procmail -d %T";
+	options keep ssl
+
+poll pop.gmail.com 
+	with proto POP3 port 995 
+	and options no dns
+	user 'dodgeitt@gmail.com' there with password "password"
+	user 'apotheosiis@gmail.com'
+	is "jason" here and wants mda "/usr/bin/procmail -d %T";
+	options fetchall ssl

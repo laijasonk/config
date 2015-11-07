@@ -1,0 +1,7 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Web Search (powered by Google)</os:ShortName>
+<os:Description>Web Search (powered by Google)</os:Description>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAApJJREFUeNqMU11rE0EUPTO722w2TbGp9QMUWhBEBB8FBcW/0CK0IPTBV9+K9Af4oPRH+G5BKgQFqyj1yVexRVpbtEGNWtOkWrOZ3fm43kk/aC2CM8xm987ck3vOPSPevF2AFBJRFEFKcQUQo/x7AaAiv39wzj0nogfGmMxai7+H8ACBlCGDTDuiSSIHIr9FEH5KwcDyNccmrDWrfwOE/mGtm9ZWTwqupG/gKHrLvT4JSilsNhpQnfSSDMLHXNlVPr6+H0BaYy9rrSf531E5PYS+EycRJGXIuIT4yAAGh88gKpag8+ysMXbKGIf9SzK3cWM04v5BgBPT3CEzhMwSlHZQFCA5dooJSRhtbvLZij+/u0IW5rzgbcRlTgQCz150RYDbpgfqSSALMXR7q59jwxxu7mnAAD1CCGgWTDqfJGA9oGAgEvxN4IK6izsC61x0QESm8ClkwTppCsEUAj7kAX0RxNNXoXQOo1IPYLUx3w6IyAI+ddw6vVHHr45GziSMI2i/GOS3Y/D1Okh1kOX5E2ddDbTjAZ5hluuH/H2rQFsX6fMSWoNDENyBLgVjELTqkM0vTIFQSkovFxYX6Gu9Dm8qy/shx1Olshvczmqkf5wL2j/Zg2WQDCCzNpxqdzsShCHCMLhTW1v7WKvVqjrPkWfZtpF4rKaqc40c3WaeE6Dvx8W2F5WQwTM20Asu/e6r+fm+RqMxUywWx9jeVWK9wj1Ps8M4eco5usfyDzGtiLVcl+TW2OlYXHy3vLy0NFuIC0kcxzPs1DFOq4aHLocQLX62dt53Y940c3wXRjupnc3zLEmS3hmd6+uHAP41PAhXNcfcR9PN9FFLtvi20vh/A+yBEM2trLwfaTY3RiqVyv0/AgwAZOmLry/BIOQAAAAASUVORK5CYII=</os:Image>
+<os:Url type="text/html" method="GET" template="http://search.toolbars.alexa.com/?ver=alxf-1.53&amp;src=bc&amp;aid=yaCHb16VHX00yV&amp;q={searchTerms}">
+</os:Url>
+</SearchPlugin>

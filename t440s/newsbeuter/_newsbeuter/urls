@@ -1,0 +1,47 @@
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1taFIjEhLwOR_uXAqsedstwQ69h80W-d0tPU9vxEtEtsbwIgPG pub
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1r91GN5TfiClMrD6rYpZV5eZmu-aZLbpxQTXWVHx2aZYrE4w7y pub
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1XsgQGan4PZ9SUVfnAfW1KGBI7bacQ4xH_75jap51_h_qR4cGo pub
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=18gXB4q-CV5t0kXU2RNamTZN2PmbWlmx00FJ58cafGy8ADF15F pub
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=18oVtKXPw9kTl7lULz69A0pPf8tbIK7x6Y3f7iQGhmI64pUw0t pub
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1b1xtujbjiH4eTHo_qlbaue7ekhGsBqMPNJpi11yFtrXc3kkPB pub
+http://www.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1t5NJfajTfIvAZqCCqQf6y1Qfpd6qwbJmrc1b4Li7LYsnIK9xV pub
+/
+http://feedproxy.google.com/linuxtoday/linux linux
+http://lxer.com/module/newswire/headlines.rss linux
+http://lwn.net/headlines/rss linux
+http://www.linuxinsider.com/perl/syndication/rssfull.pl linux
+http://www.technewsworld.com/perl/syndication/rssfull.pl linux
+http://www.topix.com/rss/tech/linux linux
+https://www.linux.com/rss/feeds.php linux
+#http://www.gentoo.org/rdf/en/gentoo-news.rdf linux
+#http://planet.gentoo.org/rss20.xml linux
+/
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=b&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=e&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=m&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=n&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=t&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=snc&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=s&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=tc&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=ir&output=rss news
+http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=w&output=rss news
+/
+#http://www.reddit.com/.rss
+http://www.reddit.com/r/news/.rss
+http://www.reddit.com/r/worldnews/.rss
+http://www.reddit.com/r/inthenews/.rss
+/
+http://www.jasonlai.com/kindle/dearabby.xml news
+http://www.jasonlai.com/kindle/top.xml news
+http://www.jasonlai.com/kindle/nation.xml news
+http://www.jasonlai.com/kindle/world.xml news
+http://www.jasonlai.com/kindle/business.xml news
+http://www.jasonlai.com/kindle/sports.xml news
+http://www.jasonlai.com/kindle/entertain.xml news
+http://www.jasonlai.com/kindle/health.xml news
+http://www.jasonlai.com/kindle/tech.xml news
+http://www.jasonlai.com/kindle/spotlight.xml news
+http://www.jasonlai.com/kindle/tempe.xml news
+http://www.jasonlai.com/kindle/arizona.xml news

@@ -1,0 +1,61 @@
+set vicmd=vim
+set trash
+set history=100
+set followlinks
+set fastrun
+" set sortnumbers
+set undolevels=100
+set novimhelp
+set norunexec
+set noiec
+colorscheme Jason
+set timefmt=%Y/%m/%d\ (%H:%M)
+set wildmenu
+set ignorecase
+set smartcase
+set nohlsearch
+set incsearch
+set scrolloff=4
+set slowfs=curlftpfs
+set statusline="  %t%= %A %10u:%-7g %15s %20d  "
+
+" Pdf
+filetype *.pdf mupdf %f
+
+" Audio
+filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a screen mpv -loop inf %f
+
+" Video
+filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part screen mpv --sub-ass -fs -slang eng %f 
+
+" Web
+filetype *.html,*.htm screen elinks %f
+
+" Object
+filetype *.o nm %f | less
+
+" Image
+filetype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.tif,*.tiff screen /home/jason/scripts/bin/indexsxiv "%f"
+
+" Office files
+filetype *.doc,*.docx,*.xls,*.xlsx,*.odp,*.ppt,*.pptx,*.xsl screen libreoffice %f
+
+filetype * screen vim %f
+set vifminfo=
+nmap s :shell<cr>
+nmap S :sort<cr>
+nmap w :view<cr>
+
+" Yank current directory path into the clipboard
+nmap yd :!echo %d | xclip %i<cr>
+
+" Yank current file path into the clipboard
+nmap yf :!echo %c:p | xclip %i<cr>
+
+" Example of standard two-panel file managers mappings
+nmap <f3> :!less %f<cr>
+nmap <f4> :edit<cr>
+nmap <f5> :copy<cr>
+nmap <f6> :move<cr>
+nmap <f7> :mkdir<space>
+nmap <f8> :delete<cr>
