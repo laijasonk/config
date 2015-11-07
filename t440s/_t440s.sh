@@ -30,7 +30,7 @@ resetConfig() {
 read -p "WARNING: Completely resets config for home directory [CTRL-C to quit] "
 
 # bash
-resetConfig $(pwd)/bash/_Xmodmap ~/.Xmodmap
+resetConfig $(pwd)/bash/_Xdefaults ~/.Xdefaults
 resetConfig $(pwd)/bash/_bash_logout ~/.bash_logout
 resetConfig $(pwd)/bash/_bash_profile ~/.bash_profile
 resetConfig $(pwd)/bash/_bashrc ~/.bashrc
@@ -44,7 +44,7 @@ resetConfig $(pwd)/bash/_wallpaper2.jpg ~/.wallpaper2.jpg
 resetConfig $(pwd)/bash/_xinitrc ~/.xinitrc
 
 # elinks
-resetConfig $(pwd)/elinks/_elinks/_bookmarks.html ~/.bookmarks.html
+resetConfig $(pwd)/elinks/_bookmarks.html ~/.bookmarks.html
 resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
