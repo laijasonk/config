@@ -20,7 +20,7 @@ set slowfs=curlftpfs
 set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 
 " Pdf
-filetype *.pdf mupdf %f
+filetype *.pdf zathura %f
 
 " Audio
 filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a screen mpv -loop inf %f
