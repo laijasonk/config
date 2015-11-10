@@ -45,7 +45,6 @@ resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
 # firefox
 resetConfig $(pwd)/firefox/default/searchplugins ~/library/Application\ Support/Firefox/Profiles/default/searchplugins
-resetConfig $(pwd)/firefox/default/prefs.js ~/library/Application\ Support/Firefox/Profiles/default/prefs.js
 resetConfig $(pwd)/firefox/profiles.ini ~/library/Application\ Support/Firefox/profiles.ini
 
 # newsbeuter

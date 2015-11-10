@@ -50,11 +50,8 @@ resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
 # firefox
 resetConfig $(pwd)/firefox/default/searchplugins ~/.mozilla/firefox/default/searchplugins
-resetConfig $(pwd)/firefox/default/prefs.js ~/.mozilla/firefox/default/prefs.js
 resetConfig $(pwd)/firefox/plain/searchplugins ~/.mozilla/firefox/plain/searchplugins
-resetConfig $(pwd)/firefox/plain/prefs.js ~/.mozilla/firefox/plain/prefs.js
 resetConfig $(pwd)/firefox/stream/searchplugins ~/.mozilla/firefox/stream/searchplugins
-resetConfig $(pwd)/firefox/stream/prefs.js ~/.mozilla/firefox/stream/prefs.js
 resetConfig $(pwd)/firefox/profiles.ini ~/.mozilla/firefox/profiles.ini
 
 # herbsluftwm
