@@ -2,7 +2,8 @@ set guioptions=''
 set showtabline=never
 set autocomplete=
 set maxitems=50
-set hintkeys=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+set hintkeys=abcdefhijklmnopqrstuvwxyz
+"set hintkeys=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 set showstatuslinks=
 set urlseparator='\|'
 highlight Hint background-color:blue;border:0px solid black;color:white;font-size:10px;padding-left:2px;padding-right:2px;

@@ -70,3 +70,6 @@ resetConfig $(pwd)/vim/_vim/colors ~/.vim/colors
 resetConfig $(pwd)/vim/_vim/doc ~/.vim/doc
 resetConfig $(pwd)/vim/_vim/README.mkd ~/.vim/README.mkd
 
+# vimperator
+resetConfig $(pwd)/vimperator/_vimperatorrc ~/.vimperatorrc
+
