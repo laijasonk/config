@@ -54,8 +54,8 @@ resetConfig $(pwd)/firefox/plain/searchplugins ~/.mozilla/firefox/plain/searchpl
 resetConfig $(pwd)/firefox/stream/searchplugins ~/.mozilla/firefox/stream/searchplugins
 resetConfig $(pwd)/firefox/profiles.ini ~/.mozilla/firefox/profiles.ini
 
-# herbsluftwm
-resetConfig $(pwd)/herbsluftwm/_herbsluftwm/autostart ~/.herbsluftwm/autostart
+# herbstluftwm
+resetConfig $(pwd)/herbstluftwm/_herbstluftwm/autostart ~/.herbstluftwm/autostart
 
 # mplayer
 resetConfig $(pwd)/mplayer/_mplayer/config ~/.mplayer/config
@@ -92,6 +92,9 @@ resetConfig $(pwd)/vifm/_vifm/vifmrc ~/.vifm/vifmrc
 resetConfig $(pwd)/vim/_vimrc ~/.vimrc
 resetConfig $(pwd)/vim/_vim/doc ~/.vim/doc
 resetConfig $(pwd)/vim/_vim/plugin ~/.vim/plugin
+
+# vimperator
+resetConfig $(pwd)/vimperator/_vimperatorrc ~/.vimperatorrc
 
 # xzgv
 resetConfig $(pwd)/xzgv/_xzgvrc ~/.xzgvrc

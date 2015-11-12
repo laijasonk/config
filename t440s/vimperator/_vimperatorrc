@@ -1,0 +1,48 @@
+set gui=none
+set autocomplete=false
+set maxitems=50
+set hintchars=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+set showstatuslinks=1
+set urlseparator='\|'
+highlight Hint background-color:blue;border:0px solid black;color:white;font-size:10px;padding-left:2px;padding-right:2px;
+highlight Hint[active] background-color:black;color:white;
+highlight CmdLine -append font-size:12px
+set! refcontrol.enabled=true
+set! permissions.default.image=2
+set defsearch=gg
+
+map <s> <C-v>s
+map <S-s> <C-v>S
+
+map <A-Tab> <Esc><C-v><C-b>
+map <A-1> <Esc>:set showstatuslinks=<CR>
+map <A-2> <Esc>:set showstatuslinks=command<CR>
+map <A-q> <Esc>:set! refcontrol.enabled=true<CR>
+map <A-w> <Esc>:set! refcontrol.enabled=false<CR>
+map <A-a> <Esc>:set gui=none<CR>
+map <A-s> <Esc>:set gui=tabs<CR>
+map <A-z> <Esc>:set! permissions.default.image=2<CR>
+map <A-x> <Esc>:set! permissions.default.image=0<CR>
+
+imap <A-Tab> <Esc><C-v><C-b>
+imap <A-1> <Esc>:set showstatuslinks=<CR>
+imap <A-2> <Esc>:set showstatuslinks=command<CR>
+imap <A-q> <Esc>:set! refcontrol.enabled=true<CR>
+imap <A-w> <Esc>:set! refcontrol.enabled=false<CR>
+imap <A-a> <Esc>:set gui=none<CR>
+imap <A-s> <Esc>:set gui=tabs<CR>
+imap <A-z> <Esc>:set! permissions.default.image=2<CR>
+imap <A-x> <Esc>:set! permissions.default.image=0<CR>
+
+cmap <A-Tab> <Esc><C-v><C-b>
+cmap <A-1> <Esc>:set showstatuslinks=<CR>
+cmap <A-2> <Esc>:set showstatuslinks=command<CR>
+cmap <A-q> <Esc>:set! refcontrol.enabled=true<CR>
+cmap <A-w> <Esc>:set! refcontrol.enabled=false<CR>
+cmap <A-a> <Esc>:set gui=none<CR>
+cmap <A-s> <Esc>:set gui=tabs<CR>
+cmap <A-z> <Esc>:set! permissions.default.image=2<CR>
+cmap <A-x> <Esc>:set! permissions.default.image=0<CR>
+
+style chrome://* .tabbrowser-tab[fadein]:not([pinned]) { min-width: 25px !important; max-width: 100% !important } .tabs-newtab-button, .tab-close-button, .tabs-closebutton-box, .tabbrowser-arrowscrollbox > .scrollbutton-up, .tabbrowser-arrowscrollbox > .scrollbutton-down, #appmenu-toolbar-button { display: none !important; }");
+
