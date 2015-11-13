@@ -1,8 +1,7 @@
 set gui=none
 set autocomplete=false
 set maxitems=50
-set hintchars=abcdefhijklmnopqrstuvwxyz
-"set hintchars=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+set hintchars=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 set showstatuslinks=1
 set urlseparator='\|'
 highlight Hint background-color:blue;border:0px solid black;color:white;font-size:10px;padding-left:2px;padding-right:2px;
@@ -11,8 +10,8 @@ highlight CmdLine -append font-size:12px
 set! permissions.default.image=2
 set defsearch=gg
 
-map <s> <C-v>s
-map <S-s> <C-v>S
+map <s> is
+map <S-s> iS
 
 map <M-Tab> <Esc><C-v><C-b>
 map <M-1> <Esc>:set showstatuslinks=<CR>
@@ -43,3 +42,5 @@ cmap <M-a> <Esc>:set gui=none<CR>
 cmap <M-s> <Esc>:set gui=tabs<CR>
 cmap <M-z> <Esc>:set! permissions.default.image=2<CR>
 cmap <M-x> <Esc>:set! permissions.default.image=0<CR>
+
+style chrome://* .tabbrowser-tab[fadein]:not([pinned]) { min-width: 25px !important; max-width: 100% !important } .tabs-newtab-button, .tab-close-button, .tabs-closebutton-box, .tabbrowser-arrowscrollbox > .scrollbutton-up, .tabbrowser-arrowscrollbox > .scrollbutton-down, #appmenu-toolbar-button { display: none !important; }");
