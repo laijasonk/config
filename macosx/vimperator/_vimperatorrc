@@ -4,6 +4,7 @@ set maxitems=50
 set hintchars=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 set showstatuslinks=1
 set urlseparator='\|'
+set focuscontent=true
 highlight Hint background-color:blue;border:0px solid black;color:white;font-size:10px;padding-left:2px;padding-right:2px;
 highlight Hint[active] background-color:black;color:white;
 highlight CmdLine -append font-size:12px
