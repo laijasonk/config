@@ -1,0 +1,25 @@
+term screen-256color
+termcapinfo xterm* ti@:te@
+termcapinfo xterm|xterms|xs|rxvt|urxvt ti@:te@
+
+vbell off
+encoding jis
+
+shelltitle 'bash'
+hardstatus alwayslastline
+hardstatus string '%{= kG} >> %?%-w%?%{= gk}%n %t%{= kG}%?%+w %=%D %d %M %Y %c:%s '
+startup_message off
+#sessionname jason
+msgwait 0
+
+#escape ~~ #sets escape to Menu
+
+screen -t bash 0
+shelltitle 'bash'
+defscrollback 4800
+
+bind 's'
+bind 'S'
+#bind ^H prev
+#bind \ quit
+#bind k kill
