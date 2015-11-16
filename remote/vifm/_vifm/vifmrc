@@ -53,9 +53,9 @@ nmap w :view<cr>
 "nmap yf :!echo %c:p | xclip %i<cr>
 
 " Example of standard two-panel file managers mappings
-"nmap <f3> :!less %f<cr>
-"nmap <f4> :edit<cr>
-"nmap <f5> :copy<cr>
-"nmap <f6> :move<cr>
-"nmap <f7> :mkdir<space>
-"nmap <f8> :delete<cr>
+nmap <f3> :!less %f<cr>
+nmap <f4> :edit<cr>
+nmap <f5> :copy<cr>
+nmap <f6> :move<cr>
+nmap <f7> :mkdir<space>
+nmap <f8> :delete<cr>

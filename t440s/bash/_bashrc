@@ -64,12 +64,6 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-if [[ ${EUID} == 0 ]] ; then
-    PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
-else
-    PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
-fi
-
 #alias rm='mv --target-directory ~/.trash'
 alias rm='rmxm'
 source /etc/profile
@@ -77,5 +71,10 @@ export PATH=$PATH:/sbin:/usr/sbin:/home/jason/scripts/bin
 export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/home/jason/scripts/bin
 MAIL=/var/spool/mail/jason && export MAIL
 #xset m 4 0
-# for screen status bar, unset the prompt_command
 unset PROMPT_COMMAND
+if [[ ${EUID} == 0 ]] ; then
+    PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
+else
+    PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
+fi
+
