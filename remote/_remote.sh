@@ -34,6 +34,7 @@ resetConfig $(pwd)/bash/_bash_logout ~/.bash_logout
 resetConfig $(pwd)/bash/_bash_profile ~/.bash_profile
 resetConfig $(pwd)/bash/_bashrc ~/.bashrc
 resetConfig $(pwd)/bash/_dir_colors ~/.dir_colors
+resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
 
 ## elinks

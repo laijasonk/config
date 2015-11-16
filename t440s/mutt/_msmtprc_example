@@ -5,7 +5,7 @@ port 587
 protocol smtp
 from jlai@uwyo.edu
 user laijasonk@gmail.com
-password <pass>
+password <password>
 auth plain
 tls on
 tls_starttls on
@@ -18,7 +18,7 @@ port 587
 protocol smtp
 from dodgeitt@gmail.com
 user dodgeitt@gmail.com
-password <pass>
+password <password>
 auth on
 tls on
 tls_trust_file /home/jason/.mutt/cert.pem

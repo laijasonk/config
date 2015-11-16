@@ -1,0 +1,11 @@
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[user]
+	name = Jason K Lai
+	email = jason.lai@bcm.edu
+[credential]
+	helper = cache --timeout=3600
+[core]
+	autocrlf = input

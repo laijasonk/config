@@ -1,0 +1,2 @@
+link ~/.newsbeuter/ to ~/.config/newsbeuter
+	ln -s ~/.newsbeuter ~/.config/newsbeuter
