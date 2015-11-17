@@ -66,8 +66,8 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 source /etc/profile
-export PATH=$PATH:/raid2/jlai/local/bin,/home/jlai/local/bin
-export ROOTPATH=$ROOTPATH:/raid2/jlai/local/bin,/home/jlai/local/bin
+export PATH=$PATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin
+export ROOTPATH=$ROOTPATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then
