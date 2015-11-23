@@ -16,18 +16,18 @@ https://www.linux.com/rss/feeds.php linux
 #http://www.gentoo.org/rdf/en/gentoo-news.rdf linux
 #http://planet.gentoo.org/rss20.xml linux
 /
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=b&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=e&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=m&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=n&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=t&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=snc&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=s&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=tc&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=ir&output=rss news
-http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=w&output=rss news
-/
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=b&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=e&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=m&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=n&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=t&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=snc&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=s&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=tc&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=ir&output=rss news
+#http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=w&output=rss news
+#/
 #http://www.reddit.com/.rss
 http://www.reddit.com/r/news/.rss
 http://www.reddit.com/r/worldnews/.rss

@@ -51,8 +51,8 @@ resetConfig $(pwd)/firefox/profiles.ini ~/library/Application\ Support/Firefox/p
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 
-# pentadactyl
-resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
+## pentadactyl
+#resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
 
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc

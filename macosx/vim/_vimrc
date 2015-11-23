@@ -16,6 +16,7 @@ set undolevels=1000
 set incsearch
 set viminfo=""
 set number
+set ruler
 set tabpagemax=50
 filetype indent on
 set directory=~/.swp//
