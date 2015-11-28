@@ -15,7 +15,8 @@ set undolevels=1000
 set incsearch
 set viminfo=""
 set number
-set tabpagemax=50
+set ruler
+set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
 
@@ -29,4 +30,7 @@ set autoindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set hlsearch
 set expandtab
+
+au FileType cpp set softtabstop=4 | set shiftwidth=4 | set textwidth=120 | set noexpandtab

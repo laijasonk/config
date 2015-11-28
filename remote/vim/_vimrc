@@ -1,6 +1,5 @@
 syntax on
 colorscheme solarized
-set nocursorline
 
 set nocompatible
 set term=screen-256color
@@ -11,12 +10,12 @@ set ignorecase
 set smartcase
 set showtabline=2
 set textwidth=0
-set tw=0
-set history=100
-set undolevels=100
+set history=1000
+set undolevels=1000
 set incsearch
 set viminfo=""
 set number
+set ruler
 set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
@@ -32,4 +31,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set hlsearch
+set expandtab
 set nocursorline
+
+au FileType cpp set softtabstop=4 | set shiftwidth=4 | set textwidth=120 | set noexpandtab

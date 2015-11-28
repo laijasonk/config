@@ -1,6 +1,5 @@
 syntax on
 colorscheme solarized
-set nocursorline
 
 set nocompatible
 set term=screen-256color
@@ -17,7 +16,7 @@ set incsearch
 set viminfo=""
 set number
 set ruler
-set tabpagemax=50
+set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
 
