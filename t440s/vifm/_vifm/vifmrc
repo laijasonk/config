@@ -29,7 +29,8 @@ filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a screen mpv -loop inf %f
 filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part screen mpv --sub-ass -fs -slang eng %f 
 
 " Web
-filetype *.html,*.htm screen elinks %f
+"filetype *.html,*.htm screen elinks %f
+filetype *.html,*.htm screen vim %f
 
 " Object
 filetype *.o nm %f | less
