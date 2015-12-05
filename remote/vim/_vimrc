@@ -34,4 +34,4 @@ set hlsearch
 set expandtab
 set nocursorline
 
-au FileType cpp set softtabstop=4 | set shiftwidth=4 | set textwidth=120 | set noexpandtab
+au FileType cpp set softtabstop=2 | set shiftwidth=2 | set textwidth=120 | set noexpandtab
