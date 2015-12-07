@@ -44,4 +44,4 @@ cmap <M-s> <Esc>:set gui=tabs<CR>
 cmap <M-z> <Esc>:set! permissions.default.image=2<CR>
 cmap <M-x> <Esc>:set! permissions.default.image=0<CR>
 
-style chrome://* .tabbrowser-tab[fadein]:not([pinned]) { min-width: 25px !important; max-width: 100% !important } .tabs-newtab-button, .tab-close-button, .tabs-closebutton-box, .tabbrowser-arrowscrollbox > .scrollbutton-up, .tabbrowser-arrowscrollbox > .scrollbutton-down, #appmenu-toolbar-button { display: none !important; }");
+"style chrome://* .tabbrowser-tab[fadein]:not([pinned]) { min-width: 25px !important; max-width: 100% !important } .tabs-newtab-button, .tab-close-button, .tabs-closebutton-box, .tabbrowser-arrowscrollbox > .scrollbutton-up, .tabbrowser-arrowscrollbox > .scrollbutton-down, #appmenu-toolbar-button { display: none !important; }");
