@@ -78,6 +78,9 @@ resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 # pentadactyl
 resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
 
+# pianobar
+resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
+
 # rtorrent
 resetConfig $(pwd)/rtorrent/_rtorrent.rc ~/.rtorrent.rc
 

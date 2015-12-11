@@ -54,6 +54,9 @@ resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 ## pentadactyl
 #resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
 
+# pianobar
+resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
+
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 
