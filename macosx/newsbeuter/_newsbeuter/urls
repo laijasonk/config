@@ -29,10 +29,10 @@ https://www.linux.com/rss/feeds.php linux
 #http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&topic=w&output=rss news
 #/
 #http://www.reddit.com/.rss
-http://www.reddit.com/r/news/.rss
-http://www.reddit.com/r/worldnews/.rss
-http://www.reddit.com/r/inthenews/.rss
-/
+#http://www.reddit.com/r/news/.rss
+#http://www.reddit.com/r/worldnews/.rss
+#http://www.reddit.com/r/inthenews/.rss
+#/
 http://www.jasonlai.com/kindle/dearabby.xml news
 http://www.jasonlai.com/kindle/top.xml news
 http://www.jasonlai.com/kindle/nation.xml news
