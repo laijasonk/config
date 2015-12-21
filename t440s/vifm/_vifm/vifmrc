@@ -36,7 +36,7 @@ filetype *.html,*.htm screen vim %f
 filetype *.o nm %f | less
 
 " Image
-filetype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.tif,*.tiff screen /home/jason/scripts/bin/indexsxiv "%f"
+filetype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.tif,*.tiff /home/jason/scripts/bin/indexsxiv %f
 
 " Office files
 filetype *.doc,*.docx,*.xls,*.xlsx,*.odp,*.ppt,*.pptx,*.xsl screen libreoffice %f
