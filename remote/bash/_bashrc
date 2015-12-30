@@ -68,6 +68,7 @@ fi
 source /etc/profile
 export PATH=$PATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin
 export ROOTPATH=$ROOTPATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/raid2/jlai/local/lib:/home/jlai/local/lib:/raid/home/jlai/local/lib
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then
