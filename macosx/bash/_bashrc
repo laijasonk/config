@@ -66,8 +66,8 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 source /etc/profile
-export PATH=$PATH:/sbin:/usr/sbin:/Users/jlai/scripts/bin
-export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/Users/jlai/scripts/bin
+export PATH=$PATH:/sbin:/usr/sbin:/Users/jlai/scripts
+export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/Users/jlai/scripts
 MAIL=/var/spool/mail/jason && export MAIL
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 export SSH_ASKPASS=""
