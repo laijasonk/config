@@ -42,8 +42,8 @@ fi
 
 # miscellaneous options
 source /etc/profile
-export PATH=$PATH:/sbin:/usr/sbin:/Users/jlai/scripts
-export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/Users/jlai/scripts
+export PATH=$PATH:/sbin:/usr/sbin:/Users/jlai/scripts:/Users/jlai/scripts/pdbtools
+export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/Users/jlai/scripts:/Users/jlai/scripts/pdbtools
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
