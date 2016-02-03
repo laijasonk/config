@@ -2,7 +2,7 @@ set gui=none
 set autocomplete=false
 set maxitems=50
 set hintchars=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-set showstatuslinks=1
+set showstatuslinks=2
 set urlseparator='\|'
 set focuscontent=true
 highlight Hint background-color:blue;border:0px solid black;color:white;font-size:10px;padding-left:2px;padding-right:2px;
@@ -14,9 +14,9 @@ set defsearch=gg
 map <s> is
 map <S-s> iS
 
-map <M-Tab> <Esc><C-v><C-b>
-map <M-1> <Esc>:set showstatuslinks=<CR>
-map <M-2> <Esc>:set showstatuslinks=command<CR>
+"map <M-Tab> <Esc>i<C-b>
+map <M-1> <Esc>:set showstatuslinks=1<CR>
+map <M-2> <Esc>:set showstatuslinks=2<CR>
 map <M-q> <Esc>
 map <M-w> <Esc>
 map <M-a> <Esc>:set gui=none<CR>
@@ -24,9 +24,9 @@ map <M-s> <Esc>:set gui=tabs<CR>
 map <M-z> <Esc>:set! permissions.default.image=2<CR>
 map <M-x> <Esc>:set! permissions.default.image=0<CR>
 
-imap <M-Tab> <Esc><C-v><C-b>
-imap <M-1> <Esc>:set showstatuslinks=<CR>
-imap <M-2> <Esc>:set showstatuslinks=command<CR>
+"imap <M-Tab> <Esc>i<C-b>
+imap <M-1> <Esc>:set showstatuslinks=1<CR>
+imap <M-2> <Esc>:set showstatuslinks=2<CR>
 imap <M-q> <Esc>
 imap <M-w> <Esc>
 imap <M-a> <Esc>:set gui=none<CR>
@@ -34,7 +34,7 @@ imap <M-s> <Esc>:set gui=tab<CR>
 imap <M-z> <Esc>:set! permissions.default.image=2<CR>
 imap <M-x> <Esc>:set! permissions.default.image=0<CR>
 
-cmap <M-Tab> <Esc><C-v><C-b>
+"cmap <M-Tab> <Esc>i<C-b>
 cmap <M-1> <Esc>:set showstatuslinks=<CR>
 cmap <M-2> <Esc>:set showstatuslinks=command<CR>
 cmap <M-q> <Esc>
