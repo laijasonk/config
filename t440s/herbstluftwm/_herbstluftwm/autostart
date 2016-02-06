@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # INITIALIZE
-feh --bg-scale /hdd/annex/config/t440s/bash/_wallpaper2.jpg
+feh --bg-scale /hdd/jkl/config/t440s/bash/_wallpaper2.jpg
 xbacklight =20 -steps 1
 amixer -D pulse -- sset Master unmute 20%
 amixer -D pulse -- sset Capture unmute 100%
@@ -45,7 +45,7 @@ hc keybind $m-Control-Delete reload
 hc keybind $m-Alt-Escape reload
 hc keybind $m-Escape close
 hc keybind $m-Control-d toggle focus_follows_mouse
-hc keybind $m-Control-r spawn /home/jason/annex/bin/t440s/hcrules
+hc keybind $m-Control-r spawn /home/jason/jkl/bin/t440s/hcrules
 
 # KEYS: WINDOW MANAGER HACKS
 hc keybind $m-Control-a spawn xdotool mousemove 9 90 click --repeat 2 --delay 300 1
@@ -60,19 +60,19 @@ hc keybind $m-q spawn xterm -e 'herbstclient remove && herbstclient remove && he
 
 # KEYS: APPLICATION
 hc keybind $m-c spawn urxvt -e screen
-hc keybind $m-v spawn /home/jason/annex/bin/t440s/vimperator
+hc keybind $m-v spawn /home/jason/jkl/bin/t440s/vimperator
 hc keybind $m-Shift-v spawn firefox-bin -P
 hc keybind $m-Alt-v spawn google-chrome-stable --force-device-scale-factor=1
-hc keybind $m-m spawn /home/jason/annex/bin/t440s/jlpdf z
-#hc keybind $m-m spawn /home/jason/annex/bin/t400s/jlpdf m
-hc keybind $m-i spawn /home/jason/annex/bin/t440s/jlsxiv 1
-hc keybind $m-Control-Shift-p spawn /home/jason/annex/bin/t440s/jlscreenshot
+hc keybind $m-m spawn /home/jason/jkl/bin/t440s/jlpdf z
+#hc keybind $m-m spawn /home/jason/jkl/bin/t400s/jlpdf m
+hc keybind $m-i spawn /home/jason/jkl/bin/t440s/jlsxiv 1
+hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 
 # KEYS: SPECIAL INFORMATION
 hc keybind $m-Shift-1 spawn dmenu_run -i -p ' >>' -nb black -nf white -sb black -sf green -fn Terminus:size=13:antialias=True
-hc keybind $m-Shift-semicolon spawn /home/jason/annex/bin/t440s/hcdmenu
-hc keybind $m-a spawn /home/jason/annex/bin/t440s/statusbar hcinfo
-hc keybind $m-w spawn /home/jason/annex/bin/t440s/statusbar hcwin
+hc keybind $m-Shift-semicolon spawn /home/jason/jkl/bin/t440s/hcdmenu
+hc keybind $m-a spawn /home/jason/jkl/bin/t440s/statusbar hcinfo
+hc keybind $m-w spawn /home/jason/jkl/bin/t440s/statusbar hcwin
 
 # KEYS: MANAGE INDEXES
 hc keybind $m-Tab use_index +1
