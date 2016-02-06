@@ -44,6 +44,7 @@ fi
 source /etc/profile
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:/sbin:/usr/sbin:/Users/jlai/annex/bin/research:/Users/jlai/annex/bin
+export ROOTPATH=/usr/local/bin:$ROOTPATH
 export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/Users/jlai/annex/bin/research:/Users/jlai/annex/bin
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 export SSH_ASKPASS=""

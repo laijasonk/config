@@ -37,8 +37,8 @@ fi
 
 # miscellaneous options
 source /etc/profile
-export PATH=$PATH:/home/jasonlai/annex/bin
-export ROOTPATH=$ROOTPATH:/home/jasonlai/annex/bin
+export PATH=/home/jasonlai/annex/bin:/home/jasonlai/local/bin:$PATH
+export ROOTPATH=/home/jasonlai/annex/bin:/home/jasonlai/local/bin:$ROOTPATH
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then
