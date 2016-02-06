@@ -36,3 +36,8 @@ resetConfig $(pwd)/bash/_bashrc ~/.bashrc
 resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
 
+# screen
+resetConfig $(pwd)/screen/_screenrc ~/.screenrc
+
+# vim
+resetConfig $(pwd)/vim/_vimrc ~/.vimrc

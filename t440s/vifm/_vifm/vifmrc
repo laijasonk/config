@@ -1,7 +1,7 @@
 set vicmd=vim
 set trash
 set history=100
-set followlinks
+set nofollowlinks
 set fastrun
 " set sortnumbers
 set undolevels=100
