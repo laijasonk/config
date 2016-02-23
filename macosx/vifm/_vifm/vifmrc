@@ -28,8 +28,8 @@ filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a open %f
 " Video
 filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part open %f 
 
-" Web
-filetype *.html,*.htm open %f
+"" Web
+"filetype *.html,*.htm,*.css,*.js,*.php,*.xhtml,*.xml,*.txt screen vim %f
 
 " Object
 filetype *.o nm %f | less
