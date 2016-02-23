@@ -37,11 +37,11 @@ fi
 
 # miscellaneous options
 source /etc/profile
-export PATH=$PATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin
-export PATH=$PATH:/raid2/jlai/jkl/bin:/home/jlai/jkl/bin:/raid/home/jlai/jkl/bin
+export PATH=$PATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin:/home/jlai/bin
+export PATH=$PATH:/raid2/jlai/jkl/bin:/home/jlai/jkl/bin:/raid/home/jlai/jkl/bin:/home/jlai/bin
 export PATH=$PATH:/raid2/jlai/jkl/bin/research:/home/jlai/jkl/bin/research:/raid/home/jlai/jkl/bin/research
-export ROOTPATH=$ROOTPATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin
-export ROOTPATH=$ROOTPATH:/raid2/jlai/jkl/bin:/home/jlai/jkl/bin:/raid/home/jlai/jkl/bin
+export ROOTPATH=$ROOTPATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin:/home/jlai/bin
+export ROOTPATH=$ROOTPATH:/raid2/jlai/jkl/bin:/home/jlai/jkl/bin:/raid/home/jlai/jkl/bin:/home/jlai/bin
 export ROOTPATH=$ROOTPATH:/raid2/jlai/jkl/bin/research:/home/jlai/jkl/bin/research:/raid/home/jlai/jkl/bin/research
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/raid2/jlai/local/lib:/home/jlai/local/lib:/raid/home/jlai/local/lib
 export SSH_ASKPASS=""
