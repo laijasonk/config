@@ -1,6 +1,6 @@
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>PDB</os:ShortName>
-<os:Description>Search Protein Data Bank</os:Description>
+<os:ShortName>pdb</os:ShortName>
+<os:Description>Protein Data Bank</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Url type="text/html" method="GET" template="http://www.rcsb.org/pdb/explore/explore.do">
 <Param name="structureId" value="{searchTerms}"/>
