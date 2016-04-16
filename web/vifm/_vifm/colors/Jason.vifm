@@ -23,7 +23,7 @@
 " standout
 " none
 
-highlight Win cterm=none ctermfg=black ctermbg=-1
+highlight Win cterm=none ctermfg=-1 ctermbg=-1
 highlight Directory cterm=bold ctermfg=blue ctermbg=-1
 highlight Link cterm=bold ctermfg=green ctermbg=-1
 highlight BrokenLink cterm=bold ctermfg=red ctermbg=-1

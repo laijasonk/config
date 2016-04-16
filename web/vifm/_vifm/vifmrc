@@ -20,25 +20,25 @@ set slowfs=curlftpfs
 set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 
 " Pdf
-"filetype *.pdf open %f
+filetype *.pdf open %f
 
 " Audio
-"filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a open %f
+filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a open %f
 
 " Video
-"filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part open %f 
+filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part open %f 
 
-" Web
-filetype *.html,*.htm vim %f
+"" Web
+"filetype *.html,*.htm,*.css,*.js,*.php,*.xhtml,*.xml,*.txt vim %f
 
 " Object
-filetype *.o vim %f
+filetype *.o nm %f | less
 
 " Image
-"filetype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.tif,*.tiff open %f
+filetype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.tif,*.tiff open %f
 
 " Office files
-"filetype *.doc,*.docx,*.xls,*.xlsx,*.odp,*.ppt,*.pptx,*.xsl open %f
+filetype *.doc,*.docx,*.xls,*.xlsx,*.odp,*.ppt,*.pptx,*.xsl open %f
 
 filetype * vim %f
 set vifminfo=
@@ -47,10 +47,10 @@ nmap S :sort<cr>
 nmap w :view<cr>
 
 " Yank current directory path into the clipboard
-"nmap yd :!echo %d | xclip %i<cr>
+nmap yd :!echo %d | xclip %i<cr>
 
 " Yank current file path into the clipboard
-"nmap yf :!echo %c:p | xclip %i<cr>
+nmap yf :!echo %c:p | xclip %i<cr>
 
 " Example of standard two-panel file managers mappings
 nmap <f3> :!less %f<cr>
