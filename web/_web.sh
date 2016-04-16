@@ -39,5 +39,10 @@ resetConfig $(pwd)/bash/_inputrc ~/.inputrc
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 
+# vifm
+resetConfig $(pwd)/vifm/_vifm/colors ~/.vifm/colors
+resetConfig $(pwd)/vifm/_vifm/vifmrc ~/.vifm/vifmrc
+
 # vim
 resetConfig $(pwd)/vim/_vimrc ~/.vimrc
+
