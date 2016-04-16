@@ -1,6 +1,6 @@
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>YouTube</os:ShortName>
-<os:Description>Search Videos</os:Description>
+<os:ShortName>yt</os:ShortName>
+<os:Description>YouTube</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Url type="text/html" method="GET" template="http://www.youtube.com/results">
 <Param name="search_query" value="{searchTerms}"/>

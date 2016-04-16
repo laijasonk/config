@@ -1,6 +1,6 @@
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>Wikipedia</os:ShortName>
-<os:Description>Search Encyclopedia on Wikipedia.org</os:Description>
+<os:ShortName>wiki</os:ShortName>
+<os:Description>Wikipedia</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Url type="text/html" method="GET" template="http://en.wikipedia.org/wiki/{searchTerms}">
 </os:Url>

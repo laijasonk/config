@@ -1,6 +1,6 @@
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>Reddit</os:ShortName>
-<os:Description>Search by subreddits</os:Description>
+<os:ShortName>re</os:ShortName>
+<os:Description>Reddit</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Url type="text/html" template="http://www.reddit.com/r/{searchTerms}"></os:Url>
 </SearchPlugin>

@@ -1,6 +1,6 @@
 <SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>The Pirate Bay</os:ShortName>
-<os:Description>Search Torrents</os:Description>
+<os:ShortName>tpb</os:ShortName>
+<os:Description>The Pirate Bay</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
 <os:Url type="text/html" method="GET" template="http://thepiratebay.se/search/{searchTerms}/0/7/0">
 </os:Url>
