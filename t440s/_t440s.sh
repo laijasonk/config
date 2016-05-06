@@ -57,9 +57,9 @@ resetConfig $(pwd)/firefox/profiles.ini ~/.mozilla/firefox/profiles.ini
 # herbstluftwm
 resetConfig $(pwd)/herbstluftwm/_herbstluftwm/autostart ~/.herbstluftwm/autostart
 
-# mplayer
-resetConfig $(pwd)/mplayer/_mplayer/config ~/.mplayer/config
-resetConfig $(pwd)/mplayer/_mplayer/input.conf ~/.mplayer/input.conf
+## mplayer
+#resetConfig $(pwd)/mplayer/_mplayer/config ~/.mplayer/config
+#resetConfig $(pwd)/mplayer/_mplayer/input.conf ~/.mplayer/input.conf
 
 # mpv
 resetConfig $(pwd)/mpv/_mpv/config ~/.mpv/config
@@ -75,8 +75,8 @@ resetConfig $(pwd)/mutt/_urlview ~/.urlview
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 
-# pentadactyl
-resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
+## pentadactyl
+#resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
 
 # pianobar
 resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
@@ -99,8 +99,8 @@ resetConfig $(pwd)/vim/_vim/plugin ~/.vim/plugin
 # vimperator
 resetConfig $(pwd)/vimperator/_vimperatorrc ~/.vimperatorrc
 
-# xzgv
-resetConfig $(pwd)/xzgv/_xzgvrc ~/.xzgvrc
+## xzgv
+#resetConfig $(pwd)/xzgv/_xzgvrc ~/.xzgvrc
 
 # zathura
 resetConfig $(pwd)/zathura/zathurarc ~/.config/zathura/zathurarc
