@@ -36,6 +36,9 @@ resetConfig $(pwd)/bash/_bashrc ~/.bashrc
 resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
 
+# elinks
+resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
+
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 
