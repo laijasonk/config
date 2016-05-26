@@ -42,6 +42,9 @@ resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 
+# transmission
+resetConfig $(pwd)/transmission/transmission-daemon/settings.json ~/.config/transmission-daemon/settings.json
+
 # vifm
 resetConfig $(pwd)/vifm/_vifm/colors ~/.vifm/colors
 resetConfig $(pwd)/vifm/_vifm/vifmrc ~/.vifm/vifmrc
