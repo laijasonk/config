@@ -23,3 +23,5 @@ bind 'S'
 #bind ^H prev
 #bind \ quit
 #bind k kill
+
+lockscreen
