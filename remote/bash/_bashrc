@@ -37,13 +37,11 @@ fi
 
 # miscellaneous options
 source /etc/profile
-export PATH=$PATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin:/home/jlai/bin
-export PATH=$PATH:/raid2/jlai/jkl/bin:/home/jlai/jkl/bin:/raid/home/jlai/jkl/bin:/home/jlai/bin
-export PATH=$PATH:/raid2/jlai/jkl/bin/research:/home/jlai/jkl/bin/research:/raid/home/jlai/jkl/bin/research
-export ROOTPATH=$ROOTPATH:/raid2/jlai/local/bin:/home/jlai/local/bin:/raid/home/jlai/local/bin:/home/jlai/bin
-export ROOTPATH=$ROOTPATH:/raid2/jlai/jkl/bin:/home/jlai/jkl/bin:/raid/home/jlai/jkl/bin:/home/jlai/bin
-export ROOTPATH=$ROOTPATH:/raid2/jlai/jkl/bin/research:/home/jlai/jkl/bin/research:/raid/home/jlai/jkl/bin/research
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/raid2/jlai/local/lib:/home/jlai/local/lib:/raid/home/jlai/local/lib
+homeDir=$(pwd)
+export PATH=${PATH}:${homeDir}/local/bin:${homeDir}/jkl/bin:${homeDir}/jkl/bin/research
+export ROOTPATH=${ROOTPATH}:${homeDir}/local/bin:${homeDir}/jkl/bin:${homeDir}/jkl/bin/research
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${homeDir}/local/lib
+export PYTHONPATH=${PYTHONPATH}:${homeDir}/local/lib/python2.7/site-packages
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then
@@ -52,3 +50,4 @@ else
     PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
 
+. ${homeDir}/local/bin/env_parallel.bash
