@@ -33,8 +33,8 @@ fi
 # miscellaneous options
 alias rm='rmxm'
 source /etc/profile
-export PATH=$PATH:/sbin:/usr/sbin:/home/jason/jkl/bin/t440s:/home/jason/jkl/bin
-export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/home/jason/jkl/bin/t440s:/home/jason/jkl/bin
+export PATH=$PATH:/sbin:/usr/sbin:$HOME/jkl/bin/t440s:$HOME/jkl/bin
+export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:$HOME/jkl/bin/t440s:$HOME/jkl/bin
 MAIL=/var/spool/mail/jason && export MAIL
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then

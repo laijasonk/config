@@ -37,9 +37,8 @@ fi
 
 # miscellaneous options
 source /etc/profile
-homeDir=$(pwd)
-export PATH=${homeDir}/jkl/bin:${homeDir}/local/bin:$PATH
-export ROOTPATH=${homeDir}/jkl/bin:${homeDir}/local/bin:$ROOTPATH
+export PATH=$HOME/jkl/bin:$HOME/local/bin:$PATH
+export ROOTPATH=$HOME/jkl/bin:$HOME/local/bin:$ROOTPATH
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then

@@ -43,9 +43,9 @@ fi
 # miscellaneous options
 source /etc/profile
 export PATH=/usr/local/bin:$PATH
-export PATH=$PATH:/sbin:/usr/sbin:/Users/jlai/jkl/bin/research:/Users/jlai/jkl/bin
+export PATH=$PATH:/sbin:/usr/sbin:$HOME/jkl/bin/research:/Users/jlai/jkl/bin
 export ROOTPATH=/usr/local/bin:$ROOTPATH
-export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:/Users/jlai/jkl/bin/research:/Users/jlai/jkl/bin
+export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:$HOME/jkl/bin/research:/Users/jlai/jkl/bin
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND

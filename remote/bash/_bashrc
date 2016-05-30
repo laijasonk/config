@@ -37,9 +37,8 @@ fi
 
 # miscellaneous options
 source /etc/profile
-homeDir=$HOME
-export PATH=${PATH}:${homeDir}/local/bin:${homeDir}/jkl/bin:${homeDir}/jkl/bin/research
-export ROOTPATH=${ROOTPATH}:${homeDir}/local/bin:${homeDir}/jkl/bin:${homeDir}/jkl/bin/research
+export PATH=${PATH}:$HOME/local/bin:$HOME/jkl/bin:$HOME/jkl/bin/research
+export ROOTPATH=${ROOTPATH}:$HOME/local/bin:$HOME/jkl/bin:$HOME/jkl/bin/research
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${homeDir}/local/lib
 export PYTHONPATH=${PYTHONPATH}:${homeDir}/local/lib/python2.7/site-packages
 export SSH_ASKPASS=""
@@ -50,4 +49,4 @@ else
     PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
 
-. ${homeDir}/local/bin/env_parallel.bash
+. $HOME/local/bin/env_parallel.bash
