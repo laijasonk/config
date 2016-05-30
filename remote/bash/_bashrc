@@ -37,7 +37,7 @@ fi
 
 # miscellaneous options
 source /etc/profile
-homeDir=$(pwd)
+homeDir=$HOME
 export PATH=${PATH}:${homeDir}/local/bin:${homeDir}/jkl/bin:${homeDir}/jkl/bin/research
 export ROOTPATH=${ROOTPATH}:${homeDir}/local/bin:${homeDir}/jkl/bin:${homeDir}/jkl/bin/research
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${homeDir}/local/lib
