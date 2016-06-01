@@ -39,8 +39,8 @@ fi
 source /etc/profile
 export PATH=${PATH}:$HOME/local/bin:$HOME/jkl/bin:$HOME/jkl/bin/research
 export ROOTPATH=${ROOTPATH}:$HOME/local/bin:$HOME/jkl/bin:$HOME/jkl/bin/research
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${homeDir}/local/lib
-export PYTHONPATH=${PYTHONPATH}:${homeDir}/local/lib/python2.7/site-packages
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:$HOME/local/lib
+export PYTHONPATH=${PYTHONPATH}:$HOME/local/lib/python2.7/site-packages
 export SSH_ASKPASS=""
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then
