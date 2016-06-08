@@ -1,4 +1,4 @@
-set gui=none
+set gui=tabs,nonavigation
 set autocomplete=false
 set maxitems=50
 set hintchars=abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
