@@ -20,11 +20,11 @@ set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
 
-map <F14> :setlocal spell spelllang=en_us <cr>
-map <F15> :setlocal spell spelllang= <cr>
-map <F17> :set nonumber <cr>
-map <F18> :set wrap <cr>
-map <F19> :set textwidth=0 <cr>
+"map <F14> :setlocal spell spelllang=en_us <cr>
+"map <F15> :setlocal spell spelllang= <cr>
+"map <F17> :set nonumber <cr>
+"map <F18> :set wrap <cr>
+"map <F19> :set textwidth=0 <cr>
 
 set autoindent
 set tabstop=4

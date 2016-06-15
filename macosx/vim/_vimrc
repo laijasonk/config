@@ -20,19 +20,19 @@ set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
 
-map <F14> :setlocal spell spelllang=en_us <cr>
-map <F15> :setlocal spell spelllang= <cr>
-map <F17> :set nonumber <cr>
-map <F18> :set wrap <cr>
-map <F19> :set textwidth=0 <cr>
+"map <F14> :setlocal spell spelllang=en_us <cr>
+"map <F15> :setlocal spell spelllang= <cr>
+"map <F17> :set nonumber <cr>
+"map <F18> :set wrap <cr>
+"map <F19> :set textwidth=0 <cr>
 
 set autoindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set hlsearch
-set nocursorline
 set expandtab
+set nocursorline
 
 autocmd BufRead,BufNewFile *.prn set noexpandtab
 autocmd FileType cpp set tabstop=2 | set softtabstop=2 | set shiftwidth=2 | set textwidth=120 | set noexpandtab
