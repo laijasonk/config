@@ -24,4 +24,4 @@ bind 'S'
 #bind \ quit
 #bind k kill
 
-lockscreen
+#lockscreen
