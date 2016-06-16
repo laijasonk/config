@@ -28,10 +28,7 @@ bind ^K focus up
 bind ^L focus right
 bind 's' split
 bind 'S' split -v
-#bind 's'
-#bind 'S'
-#bind ^H prev
-#bind \ quit
-#bind k kill
 
 rendition so "="
+
+#lockscreen

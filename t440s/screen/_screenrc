@@ -20,8 +20,5 @@ defscrollback 4800
 
 bind 's'
 bind 'S'
-#bind ^H prev
-#bind \ quit
-#bind k kill
 
 #lockscreen
