@@ -13,13 +13,8 @@ max-items 60
 #keep-articles-days 30
 #max-items 47
 
-define-filter "PubMed" "tags # \"pub\"" 
-define-filter "Science" "tags # \"sci\"" 
-define-filter "Barf" "tags # \"barf\"" 
-define-filter "HubMed" "tags # \"hub\"" 
 define-filter "News" "tags # \"news\"" 
 define-filter "Linux" "tags # \"linux\""
-define-filter "Manga" "tags # \"manga\""
 define-filter "Other" "tags # \"other\""
 
 unbind-key s
