@@ -62,5 +62,7 @@ if [[ ${EUID} == 0 ]] ; then
 else
     PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
-. $HOME/local/bin/env_parallel.bash
+if [ -f $HOME/local/bin/env_parallel.bash ] ; then
+    . $HOME/local/bin/env_parallel.bash
+fi
 
