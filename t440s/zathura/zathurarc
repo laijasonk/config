@@ -8,3 +8,5 @@ set inputbar-fg '#000000'
 set completion-bg '#FFFFFF'
 set completion-fg '#000000'
 set zoom-step 25
+set statusbar-h-padding 0
+set statusbar-v-padding 0

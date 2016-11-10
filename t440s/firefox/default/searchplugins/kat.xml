@@ -2,7 +2,7 @@
 <os:ShortName>kat</os:ShortName>
 <os:Description>Kick Ass Torrents</os:Description>
 <os:InputEncoding>ISO-8859-1</os:InputEncoding>
-<os:Url type="text/html" method="GET" template="http://kickass.to/torrents/usearch/">
+<os:Url type="text/html" method="GET" template="http://kickass-top.com/torrents/usearch/">
 <Param name="q" value="{searchTerms}"/>
 </os:Url>
 </SearchPlugin>

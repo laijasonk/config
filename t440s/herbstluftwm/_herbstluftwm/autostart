@@ -155,6 +155,7 @@ hc keybind $m-Control-9 spawn xbacklight =20
 hc keybind $m-Control-0 spawn xbacklight =10
 
 # KEYS: MOUSE BINDINGS
+hc keybind $m-Control-m spawn /usr/bin/xset m 2
 hc mouseunbind --all
 hc mousebind $m-Button1 move
 hc mousebind $m-Button2 resize
