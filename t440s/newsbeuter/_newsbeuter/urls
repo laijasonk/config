@@ -33,7 +33,7 @@ https://www.linux.com/rss/feeds.php linux
 #http://www.reddit.com/r/worldnews/.rss
 #http://www.reddit.com/r/inthenews/.rss
 #/
-http://www.jasonlai.com/kindle/dearabby.xml news
+#http://www.jasonlai.com/kindle/dearabby.xml news
 http://www.jasonlai.com/kindle/top.xml news
 http://www.jasonlai.com/kindle/nation.xml news
 http://www.jasonlai.com/kindle/world.xml news
