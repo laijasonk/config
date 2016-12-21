@@ -3,3 +3,5 @@
 # runs your .bashrc and is recommended by the bash info pages.
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH=$PATH:/opt/local/share/java/android-sdk-macosx/platform-tools
+export PATH=$PATH:/opt/local/share/java/android-sdk-macosx/platform-tools
