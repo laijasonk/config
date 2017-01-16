@@ -47,6 +47,9 @@ resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 resetConfig $(pwd)/firefox/default/searchplugins ~/library/Application\ Support/Firefox/Profiles/default/searchplugins
 resetConfig $(pwd)/firefox/profiles.ini ~/library/Application\ Support/Firefox/profiles.ini
 
+# gvim
+resetConfig $(pwd)/gvim/_gvimrc ~/.gvimrc
+
 # newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
