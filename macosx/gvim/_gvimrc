@@ -1,2 +1,4 @@
 set gfn=Consolas:h16
 set linespace=6
+set nonumber
+set wrap
