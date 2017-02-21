@@ -25,7 +25,7 @@ nmap ZZ :Q<cr>
 filetype *.pdf open %f
 
 " Audio
-filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a open %f
+filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a mpv %f
 
 " Video
 filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part open %f 
