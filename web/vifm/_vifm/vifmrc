@@ -21,27 +21,6 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 command! Q :execute '!echo %d > ~/.vifm/lastdir' | quit
 nmap ZZ :Q<cr>
 
-" Pdf
-filetype *.pdf open %f
-
-" Audio
-filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a open %f
-
-" Video
-filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part open %f 
-
-"" Web
-"filetype *.html,*.htm,*.css,*.js,*.php,*.xhtml,*.xml,*.txt vim %f
-
-" Object
-filetype *.o nm %f | less
-
-" Image
-filetype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.tif,*.tiff open %f
-
-" Office files
-filetype *.doc,*.docx,*.xls,*.xlsx,*.odp,*.ppt,*.pptx,*.xsl open %f
-
 filetype * vim %f
 set vifminfo=
 nmap s :shell<cr>
