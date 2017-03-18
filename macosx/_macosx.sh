@@ -50,6 +50,10 @@ resetConfig $(pwd)/firefox/profiles.ini ~/library/Application\ Support/Firefox/p
 # gvim
 resetConfig $(pwd)/gvim/_gvimrc ~/.gvimrc
 
+# mpv
+resetConfig $(pwd)/mpv/_mpv/config ~/.mpv/config
+resetConfig $(pwd)/mpv/_mpv/input.conf ~/.mpv/input.conf
+
 # newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
