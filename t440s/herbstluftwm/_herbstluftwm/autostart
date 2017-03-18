@@ -46,6 +46,7 @@ hc keybind $m-Alt-Escape reload
 hc keybind $m-Escape close
 hc keybind $m-Control-d toggle focus_follows_mouse
 hc keybind $m-Control-r spawn /home/jason/jkl/bin/t440s/hcrules
+hc keybind $m-y spawn /usr/bin/mpv /home/jason/youtube/blank.jpg
 
 # KEYS: WINDOW MANAGER HACKS
 hc keybind $m-Control-a spawn xdotool mousemove 9 90 click --repeat 2 --delay 300 1
