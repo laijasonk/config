@@ -1,2 +1,0 @@
-link .herbstluftwm/autostart to .config/herbstluftwm/autostart
-	ln -s .herbstluftwm/autostart .config/herbstluftwm/autostart

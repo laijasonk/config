@@ -64,6 +64,9 @@ resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 # pianobar
 resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
 
+# rtv
+resetConfig $(pwd)/rtv/rtv.cfg ~/.config/rtv/rtv.cfg
+
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 
