@@ -2,7 +2,7 @@ set smooth-scroll true
 set default-bg '#808080'
 set font 'monospace normal 12'
 set scroll-step 100
-set guioptions ''
+set guioptions 's'
 set inputbar-bg '#FFFFFF'
 set inputbar-fg '#000000'
 set completion-bg '#FFFFFF'
