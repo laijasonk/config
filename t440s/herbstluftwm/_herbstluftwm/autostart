@@ -68,6 +68,7 @@ hc keybind $m-m spawn /home/jason/jkl/bin/t440s/jlpdf z
 #hc keybind $m-m spawn /home/jason/jkl/bin/t400s/jlpdf m
 hc keybind $m-i spawn /home/jason/jkl/bin/t440s/jlsxiv 1
 hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
+hc keybind $m-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 
 # KEYS: SPECIAL INFORMATION
 hc keybind $m-Shift-1 spawn dmenu_run -i -p ' >>' -nb black -nf white -sb black -sf green -fn Terminus:size=13:antialias=True
@@ -95,9 +96,9 @@ hc keybind $m-Control-z set_layout grid
 hc keybind $m-s split vertical 0.5
 hc keybind $m-Shift-s split horizontal 0.5
 hc keybind $m-r remove
-hc keybind $m-d cycle_all +1
-hc keybind $m-Shift-n cycle_all +1
-hc keybind $m-Shift-p cycle_all -1
+#hc keybind $m-d cycle_all +1
+#hc keybind $m-Shift-n cycle_all +1
+#hc keybind $m-Shift-p cycle_all -1
 hc keybind $m-x cycle
 hc keybind $m-n cycle +1
 hc keybind $m-p cycle -1
