@@ -1,6 +1,6 @@
-term screen-256color
-termcapinfo xterm* ti@:te@
-termcapinfo xterm|xterms|xs|rxvt|urxvt ti@:te@
+#term screen-256color
+#termcapinfo xterm* ti@:te@
+#termcapinfo xterm|xterms|xs|rxvt|urxvt ti@:te@
 
 vbell off
 encoding jis
