@@ -71,7 +71,7 @@ hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 hc keybind $m-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 
 # KEYS: SPECIAL INFORMATION
-hc keybind $m-Shift-1 spawn dmenu_run -i -p ' >>' -nb black -nf white -sb black -sf green -fn Terminus:size=13:antialias=True
+hc keybind $m-Shift-1 spawn /home/jason/jkl/bin/t440s/bindmenu
 hc keybind $m-Shift-semicolon spawn /home/jason/jkl/bin/t440s/hcdmenu
 hc keybind $m-a spawn /home/jason/jkl/bin/t440s/statusbar hcinfo
 hc keybind $m-w spawn /home/jason/jkl/bin/t440s/statusbar hcwin
