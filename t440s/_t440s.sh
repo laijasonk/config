@@ -84,6 +84,9 @@ resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
 # rtorrent
 resetConfig $(pwd)/rtorrent/_rtorrent.rc ~/.rtorrent.rc
 
+# rtv
+resetConfig $(pwd)/rtv/rtv.cfg ~/.config/rtv/rtv.cfg
+
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc
 

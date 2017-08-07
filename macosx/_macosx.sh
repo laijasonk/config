@@ -47,6 +47,13 @@ resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 resetConfig $(pwd)/firefox/default/searchplugins ~/library/Application\ Support/Firefox/Profiles/default/searchplugins
 resetConfig $(pwd)/firefox/profiles.ini ~/library/Application\ Support/Firefox/profiles.ini
 
+# gvim
+resetConfig $(pwd)/gvim/_gvimrc ~/.gvimrc
+
+# mpv
+resetConfig $(pwd)/mpv/_mpv/config ~/.mpv/config
+resetConfig $(pwd)/mpv/_mpv/input.conf ~/.mpv/input.conf
+
 # newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
@@ -56,6 +63,9 @@ resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
 
 # pianobar
 resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
+
+# rtv
+resetConfig $(pwd)/rtv/rtv.cfg ~/.config/rtv/rtv.cfg
 
 # screen
 resetConfig $(pwd)/screen/_screenrc ~/.screenrc

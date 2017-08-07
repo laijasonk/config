@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # INITIALIZE
-feh --bg-scale /hdd/jkl/config/t440s/bash/_wallpaper2.jpg
+feh --bg-scale /hdd/jkl/config/t440s/bash/_mosaic.png
 xbacklight =20 -steps 1
 amixer -D pulse -- sset Master unmute 20%
 amixer -D pulse -- sset Capture unmute 100%
@@ -46,6 +46,7 @@ hc keybind $m-Alt-Escape reload
 hc keybind $m-Escape close
 hc keybind $m-Control-d toggle focus_follows_mouse
 hc keybind $m-Control-r spawn /home/jason/jkl/bin/t440s/hcrules
+hc keybind $m-y spawn /usr/bin/mpv /home/jason/youtube/blank.jpg
 
 # KEYS: WINDOW MANAGER HACKS
 hc keybind $m-Control-a spawn xdotool mousemove 9 90 click --repeat 2 --delay 300 1
@@ -67,9 +68,10 @@ hc keybind $m-m spawn /home/jason/jkl/bin/t440s/jlpdf z
 #hc keybind $m-m spawn /home/jason/jkl/bin/t400s/jlpdf m
 hc keybind $m-i spawn /home/jason/jkl/bin/t440s/jlsxiv 1
 hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
+hc keybind $m-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 
 # KEYS: SPECIAL INFORMATION
-hc keybind $m-Shift-1 spawn dmenu_run -i -p ' >>' -nb black -nf white -sb black -sf green -fn Terminus:size=13:antialias=True
+hc keybind $m-Shift-1 spawn /home/jason/jkl/bin/t440s/bindmenu
 hc keybind $m-Shift-semicolon spawn /home/jason/jkl/bin/t440s/hcdmenu
 hc keybind $m-a spawn /home/jason/jkl/bin/t440s/statusbar hcinfo
 hc keybind $m-w spawn /home/jason/jkl/bin/t440s/statusbar hcwin
@@ -94,9 +96,9 @@ hc keybind $m-Control-z set_layout grid
 hc keybind $m-s split vertical 0.5
 hc keybind $m-Shift-s split horizontal 0.5
 hc keybind $m-r remove
-hc keybind $m-d cycle_all +1
-hc keybind $m-Shift-n cycle_all +1
-hc keybind $m-Shift-p cycle_all -1
+#hc keybind $m-d cycle_all +1
+#hc keybind $m-Shift-n cycle_all +1
+#hc keybind $m-Shift-p cycle_all -1
 hc keybind $m-x cycle
 hc keybind $m-n cycle +1
 hc keybind $m-p cycle -1

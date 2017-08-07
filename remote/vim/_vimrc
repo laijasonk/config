@@ -20,6 +20,7 @@ set ruler
 set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
+set wildmode=longest,list 
 
 "map <F14> :setlocal spell spelllang=en_us <cr>
 "map <F15> :setlocal spell spelllang= <cr>
