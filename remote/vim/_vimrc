@@ -1,5 +1,6 @@
 syntax on
-colorscheme solarized
+"colorscheme solarized
+colorscheme default
 
 set nocompatible
 set term=screen-256color
