@@ -3,7 +3,7 @@ set trash
 set history=100
 set nofollowlinks
 set fastrun
-" set sortnumbers
+"set sortnumbers
 set undolevels=100
 set novimhelp
 set norunexec
@@ -48,7 +48,7 @@ filetype * screen vim %f
 set vifminfo=
 nmap s :shell<cr>
 nmap S :sort<cr>
-nmap w :view<cr>
+"nmap w :view<cr>
 
 " Yank current directory path into the clipboard
 nmap yd :!echo %d | xclip %i<cr>
@@ -57,9 +57,9 @@ nmap yd :!echo %d | xclip %i<cr>
 nmap yf :!echo %c:p | xclip %i<cr>
 
 " Example of standard two-panel file managers mappings
-" nmap <f3> :!less %f<cr>
-" nmap <f4> :edit<cr>
+"nmap <f3> :!less %f<cr>
+"nmap <f4> :edit<cr>
 nmap <f5> :copy<cr>
 nmap <f6> :move<cr>
-" nmap <f7> :mkdir<space>
+"nmap <f7> :mkdir<space>
 "nmap <f8> :delete<cr>
