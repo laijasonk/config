@@ -28,7 +28,7 @@ filetype *.pdf zathura %f
 filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a screen mpv -loop inf %f
 
 " Video
-filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part,*.unknown_video screen mpv --sub-ass -fs -alang jpn -slang eng %f 
+filetype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.m4v,*.mpg,*.vob,*.flv,*.ogm,*.mpeg,*.mov,*.divx,*.webm,*.rmvb,*.part,*.crdownload,*.unknown_video screen mpv --sub-ass -fs -alang jpn -slang eng %f 
 
 " Web
 "filetype *.html,*.htm screen elinks %f
