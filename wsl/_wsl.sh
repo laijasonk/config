@@ -30,59 +30,18 @@ resetConfig() {
 read -p "WARNING: Completely resets config for home directory [CTRL-C to quit] "
 
 # bash
-resetConfig $(pwd)/bash/_Xdefaults ~/.Xdefaults
-resetConfig $(pwd)/bash/_bash_logout ~/.bash_logout
-resetConfig $(pwd)/bash/_bash_profile ~/.bash_profile
 resetConfig $(pwd)/bash/_bashrc ~/.bashrc
-resetConfig $(pwd)/bash/_dialogrc ~/.dialogrc
-resetConfig $(pwd)/bash/_fehbg ~/.fehbg
-resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
-resetConfig $(pwd)/bash/_gtkrc-2.0 ~/.gtkrc-2.0
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
-resetConfig $(pwd)/bash/_wallpaper.jpg ~/.wallpaper.jpg
-resetConfig $(pwd)/bash/_wallpaper2.jpg ~/.wallpaper2.jpg
-resetConfig $(pwd)/bash/_xinitrc ~/.xinitrc
+resetConfig $(pwd)/bash/_minttyrc ~/.minttyrc
 
 # elinks
 resetConfig $(pwd)/elinks/_bookmarks.html ~/.bookmarks.html
 resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
-# firefox
-resetConfig $(pwd)/firefox/default/searchplugins ~/.mozilla/firefox/default/searchplugins
-resetConfig $(pwd)/firefox/plain/searchplugins ~/.mozilla/firefox/plain/searchplugins
-resetConfig $(pwd)/firefox/stream/searchplugins ~/.mozilla/firefox/stream/searchplugins
-resetConfig $(pwd)/firefox/profiles.ini ~/.mozilla/firefox/profiles.ini
-
-# herbstluftwm
-resetConfig $(pwd)/herbstluftwm/_herbstluftwm/autostart ~/.herbstluftwm/autostart
-
-## mplayer
-#resetConfig $(pwd)/mplayer/_mplayer/config ~/.mplayer/config
-#resetConfig $(pwd)/mplayer/_mplayer/input.conf ~/.mplayer/input.conf
-
-# mpv
-resetConfig $(pwd)/mpv/_mpv/config ~/.mpv/config
-resetConfig $(pwd)/mpv/_mpv/input.conf ~/.mpv/input.conf
-
-# mutt
-resetConfig $(pwd)/mutt/_mailcap ~/.mailcap
-resetConfig $(pwd)/mutt/_muttrc ~/.muttrc
-resetConfig $(pwd)/mutt/_procmailrc ~/.procmailrc
-resetConfig $(pwd)/mutt/_urlview ~/.urlview
-
 # newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
-
-## pentadactyl
-#resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
-
-# pianobar
-resetConfig $(pwd)/pianobar/config ~/.config/pianobar/config
-
-# rtorrent
-resetConfig $(pwd)/rtorrent/_rtorrent.rc ~/.rtorrent.rc
 
 # rtv
 resetConfig $(pwd)/rtv/rtv.cfg ~/.config/rtv/rtv.cfg
@@ -98,13 +57,4 @@ resetConfig $(pwd)/vifm/_vifm/vifmrc ~/.vifm/vifmrc
 resetConfig $(pwd)/vim/_vimrc ~/.vimrc
 resetConfig $(pwd)/vim/_vim/doc ~/.vim/doc
 resetConfig $(pwd)/vim/_vim/plugin ~/.vim/plugin
-
-# vimperator
-resetConfig $(pwd)/vimperator/_vimperatorrc ~/.vimperatorrc
-
-## xzgv
-#resetConfig $(pwd)/xzgv/_xzgvrc ~/.xzgvrc
-
-# zathura
-resetConfig $(pwd)/zathura/zathurarc ~/.config/zathura/zathurarc
 
