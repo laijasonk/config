@@ -9,7 +9,7 @@ set copyindent
 set ignorecase
 set smartcase
 set showtabline=2
-set textwidth=0
+set textwidth=72
 set history=1000
 set undolevels=1000
 set incsearch
