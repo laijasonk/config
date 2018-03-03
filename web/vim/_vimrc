@@ -21,6 +21,9 @@ filetype indent on
 set directory=~/.swp//
 set wildmode=longest,list 
 
+set textwidth=72
+set fo-=t
+
 "map <F14> :setlocal spell spelllang=en_us <cr>
 "map <F15> :setlocal spell spelllang= <cr>
 "map <F17> :set nonumber <cr>
