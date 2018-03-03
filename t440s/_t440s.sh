@@ -71,9 +71,9 @@ resetConfig $(pwd)/mutt/_muttrc ~/.muttrc
 resetConfig $(pwd)/mutt/_procmailrc ~/.procmailrc
 resetConfig $(pwd)/mutt/_urlview ~/.urlview
 
-# newsbeuter
-resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
-resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
+# newsboat
+resetConfig $(pwd)/newsboat/config ~/.config/newsboat/config
+resetConfig $(pwd)/newsboat/urls ~/.config/newsboat/urls
 
 ## pentadactyl
 #resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
