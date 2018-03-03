@@ -66,7 +66,7 @@ hc keybind $m-Shift-v spawn firefox-bin -P
 hc keybind $m-Alt-v spawn google-chrome-stable --force-device-scale-factor=1
 hc keybind $m-m spawn /home/jason/jkl/bin/t440s/jlpdf z
 #hc keybind $m-m spawn /home/jason/jkl/bin/t400s/jlpdf m
-hc keybind $m-i spawn /home/jason/jkl/bin/t440s/jlsxiv
+hc keybind $m-i spawn /home/jason/jkl/repo/sxiv-jkl/scripts/jlsxiv
 hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 hc keybind $m-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
 
