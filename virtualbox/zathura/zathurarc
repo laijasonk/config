@@ -1,0 +1,12 @@
+set smooth-scroll true
+set default-bg '#808080'
+set font 'monospace normal 12'
+set scroll-step 100
+set guioptions 's'
+set inputbar-bg '#FFFFFF'
+set inputbar-fg '#000000'
+set completion-bg '#FFFFFF'
+set completion-fg '#000000'
+set zoom-step 25
+set statusbar-h-padding 0
+set statusbar-v-padding 0

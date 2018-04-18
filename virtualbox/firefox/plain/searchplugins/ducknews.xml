@@ -1,0 +1,9 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Duck News</os:ShortName>
+<os:Description>Search news on Duck Duck Go</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Url type="text/html" method="GET" template="https://duckduckgo.com/">
+<Param name="q" value="{searchTerms}"/>
+<Param name="ia" value="news"/>
+</os:Url>
+</SearchPlugin>

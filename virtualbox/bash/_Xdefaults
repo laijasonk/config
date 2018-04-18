@@ -1,0 +1,27 @@
+urxvt*font:		        xft:Terminus:size=16:antialias=True
+#urxvt*font:		        xft:Terminus:size=17:antialias=True
+urxvt*letterSpace:      1
+urxvt*inheritPixmap:    true
+urxvt*scrollBar:		false
+urxvt*internalBorder:	0
+urxvt*externalBorder:	0
+urxvt*borderColor:		#000000
+urxvt*background:		#000000
+urxvt*foreground:		#FFFFFF
+urxvt*scrollTtyOutput:  false
+urxvt*scrollWithBuffer: true
+urxvt*scrollTtyKeypress:true
+urxvt.imLocale:         en_US.UTF-8
+
+xterm*font:			    9x15
+xterm*faceName:		    xos4 Terminus:size=12:antialias=True
+xterm*letterSpace:      1
+xterm*boldfont:         false
+XTerm*boldMode:         false
+#xterm*inheritPixmap:	true
+#xterm*scrollBar:		false
+#xterm*internalBorder:		0
+#xterm*externalBorder:		0
+#xterm*borderColor:		#000000
+#xterm*background:		#000000
+#xterm*foreground:		#FFFFFF

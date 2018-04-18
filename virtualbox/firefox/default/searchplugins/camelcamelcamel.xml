@@ -1,0 +1,6 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>ca</os:ShortName>
+<os:Description>Camel Camel Camel</os:Description>
+<os:InputEncoding>ISO-8859-1</os:InputEncoding>
+<os:Url type="text/html" template="http://www.camelcamelcamel.com/product/{searchTerms}"></os:Url>
+</SearchPlugin>

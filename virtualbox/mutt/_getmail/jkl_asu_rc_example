@@ -1,0 +1,25 @@
+[retriever]
+type = SimplePOP3SSLRetriever
+server = pop.gmail.com
+username = jklai@asu.edu
+password = <password>
+
+[destination]
+type = Mboxrd
+path = ~/.mutt/mail/jason
+
+#[destination]
+#type = MDA_external
+#path = /usr/bin/procmail
+#unixfrom = True
+
+#[filter]
+#type = Filter_external
+#path = /usr/bin/spamassassin
+
+[options]
+verbose = 1
+received = false
+delivered_to = false
+delete = false
+read_all = false
