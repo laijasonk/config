@@ -1,119 +1,95 @@
 #!/bin/bash
+feh --bg-scale /home/laij/jkl/config/t440s/bash/_mosaic.png
+herbstluftwm set_layout max
 
-# INITIALIZE
-feh --bg-scale /home/jlai/jkl/config/t440s/bash/_mosaic.png
-#xbacklight =20 -steps 1
-#amixer -D pulse -- sset Master unmute 20%
-#amixer -D pulse -- sset Capture unmute 100%
+# SETTINGS
+herbstclient set frame_bg_transparent 100
+herbstclient set frame_border_width 0
+herbstclient set window_border_width 0
+herbstclient set window_border_inner_width 0
+herbstclient set frame_gap 0
+herbstclient set frame_padding 0
+herbstclient set window_gap 0
+herbstclient set snap_distance 24
+herbstclient set snap_gap 0
+herbstclient set always_show_frame 09fbc00
+herbstclient set default_frame_layout 2
+herbstclient set focus_follows_mouse 1
+herbstclient set raise_on_click 1
+herbstclient set raise_on_focus 0
 
-function hc() 
-{
-	cmds="$cmds , $@"
-}
-cmds=''
-hc emit_hook reload
-
-## SETTINGS
-#hc set frame_bg_transparent 100
-#hc set frame_border_width 0
-#hc set window_border_width 0
-#hc set window_border_inner_width 0
-#hc set frame_gap 0
-#hc set frame_padding 0
-#hc set window_gap 0
-#hc set snap_distance 24
-#hc set snap_gap 0
-#hc set always_show_frame 09fbc00
-#hc set default_frame_layout 2
-#hc set focus_follows_mouse 1
-#hc set raise_on_click 1
-#hc set raise_on_focus 0
-
-## BASIC SETTINGS
-#hc rename default F1 || true
-#hc add F2
-#hc add F3
-#hc set_layout max
-
-# RESET KEY BINDINGS
-hc keyunbind --all
 m=Mod4
+herbstclient keybind $m-c spawn urxvt -e screen
+herbstclient emit_hook reload
+herbstclient keybind $m-Control-Shift-q quit
+herbstclient keybind $m-Control-Delete reload
+herbstclient keybind $m-Alt-Escape reload
+herbstclient keybind $m-Escape close
+herbstclient keybind $m-Control-d toggle focus_follows_mouse
+herbstclient keybind $m-q spawn xterm -e 'herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient floating off && herbstclient set_layout max'
 
-# KEYS: WINDOW MANAGER MANAGEMENT
-hc keybind $m-Control-Shift-q quit
-hc keybind $m-Control-Delete reload
-hc keybind $m-Alt-Escape reload
-hc keybind $m-Escape close
-hc keybind $m-Control-d toggle focus_follows_mouse
-hc keybind $m-Control-r spawn /home/jlai/jkl/bin/t440s/hcrules
+herbstclient keybind $m-c spawn urxvt -e screen
 
-# KEYS: WINDOW MANAGER HACKS
-hc keybind $m-q spawn xterm -e 'herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient floating off && herbstclient set_layout max'
-
-# KEYS: APPLICATION
-hc keybind $m-c spawn urxvt -e screen
-
-# KEYS: MANAGE INDEXES
-hc keybind $m-Tab use_index +1
-hc keybind $m-Shift-Tab use_index -1
-hc keybind $m-Right use_index +1
-hc keybind $m-Left use_index -1
-hc keybind $m-Shift-a move_index -1
-hc keybind $m-Shift-d move_index +1
-hc keybind $m-Shift-F1 use_index F1
-hc keybind $m-Shift-F2 use_index F2
-hc keybind $m-Shift-F3 use_index F3
+herbstclient keybind $m-Tab use_index +1
+herbstclient keybind $m-Shift-Tab use_index -1
+herbstclient keybind $m-Right use_index +1
+herbstclient keybind $m-Left use_index -1
+herbstclient keybind $m-Shift-a move_index -1
+herbstclient keybind $m-Shift-d move_index +1
+herbstclient keybind $m-Shift-F1 use_index F1
+herbstclient keybind $m-Shift-F2 use_index F2
+herbstclient keybind $m-Shift-F3 use_index F3
 
 # KEYS: CHOOSE LAYOUT GRID
-hc keybind $m-z cycle_layout
-hc keybind $m-Shift-z set_layout max
-hc keybind $m-Control-z set_layout grid
+herbstclient keybind $m-z cycle_layout
+herbstclient keybind $m-Shift-z set_layout max
+herbstclient keybind $m-Control-z set_layout grid
 
-# KEYS: ADJUST LAYOUT GRID
-hc keybind $m-s split vertical 0.5
-hc keybind $m-Shift-s split horizontal 0.5
-hc keybind $m-r remove
-#hc keybind $m-d cycle_all +1
-#hc keybind $m-Shift-n cycle_all +1
-#hc keybind $m-Shift-p cycle_all -1
-hc keybind $m-x cycle
-hc keybind $m-n cycle +1
-hc keybind $m-p cycle -1
-hc keybind $m-h focus left
-hc keybind $m-j focus down
-hc keybind $m-k focus up
-hc keybind $m-l focus right
-hc keybind $m-Control-h shift left
-hc keybind $m-Control-j shift down
-hc keybind $m-Control-k shift up
-hc keybind $m-Control-l shift right
+## KEYS: ADJUST LAYOUT GRID
+herbstclient keybind $m-s split vertical 0.5
+herbstclient keybind $m-Shift-s split horizontal 0.5
+herbstclient keybind $m-r remove
+#herbstclient keybind $m-d cycle_all +1
+#herbstclient keybind $m-Shift-n cycle_all +1
+#herbstclient keybind $m-Shift-p cycle_all -1
+herbstclient keybind $m-x cycle
+herbstclient keybind $m-n cycle +1
+herbstclient keybind $m-p cycle -1
+herbstclient keybind $m-h focus left
+herbstclient keybind $m-j focus down
+herbstclient keybind $m-k focus up
+herbstclient keybind $m-l focus right
+herbstclient keybind $m-Control-h shift left
+herbstclient keybind $m-Control-j shift down
+herbstclient keybind $m-Control-k shift up
+herbstclient keybind $m-Control-l shift right
 
 # KEYS: RESIZE GRID
-hc keybind $m-Shift-h resize left +0.01
-hc keybind $m-Shift-j resize down +0.01
-hc keybind $m-Shift-k resize up +0.01
-hc keybind $m-Shift-l resize right +0.01
+herbstclient keybind $m-Shift-h resize left +0.01
+herbstclient keybind $m-Shift-j resize down +0.01
+herbstclient keybind $m-Shift-k resize up +0.01
+herbstclient keybind $m-Shift-l resize right +0.01
 
 # KEYS: CHOOSE MISCELLANEOUS LAYOUT TYPES
-hc keybind $m-F1 floating toggle
-hc keybind $m-F2 fullscreen toggle
-hc keybind $m-F3 pseudotile toggle
-hc keybind $m-f floating toggle
-hc keybind $m-Shift-f fullscreen toggle
-hc keybind $m-Control-f pseudotile toggle
-hc keybind $m-Shift-x fullscreen toggle
+herbstclient keybind $m-F1 floating toggle
+herbstclient keybind $m-F2 fullscreen toggle
+herbstclient keybind $m-F3 pseudotile toggle
+herbstclient keybind $m-f floating toggle
+herbstclient keybind $m-Shift-f fullscreen toggle
+herbstclient keybind $m-Control-f pseudotile toggle
+herbstclient keybind $m-Shift-x fullscreen toggle
 
 # KEYS: MOUSE BINDINGS
-hc mouseunbind --all
-hc mousebind $m-Button1 move
-hc mousebind $m-Button2 resize
-hc mousebind $m-Button3 zoom
-hc mousebind $m-Control-Button1 zoom
-hc mousebind $m-Shift-Button1 resize
-
-# INITIALIZE HERBSTLUFTWM BINDINGS
-herbstclient chain $cmds &
-
+herbstclient mouseunbind --all
+herbstclient mousebind $m-Button1 move
+herbstclient mousebind $m-Button2 resize
+herbstclient mousebind $m-Button3 zoom
+herbstclient mousebind $m-Control-Button1 zoom
+herbstclient mousebind $m-Shift-Button1 resize
+#
+## INITIALIZE HERBSTLUFTWM BINDINGS
+#herbstclient chain $cmds &
+##
 ## RULES
 #herbstclient unrule -F
 #herbstclient rule focus=off pseudotile=off manage=on # normal rules
@@ -125,3 +101,134 @@ herbstclient chain $cmds &
 #herbstclient rule class='TkFDialog' pseudotile=off
 #herbstclient rule class='sxiv' focus=off fullscreen=off
 
+
+
+
+
+##!/bin/bash
+#
+## INITIALIZE
+#feh --bg-scale /home/jlai/jkl/config/t440s/bash/_mosaic.png
+##xbacklight =20 -steps 1
+##amixer -D pulse -- sset Master unmute 20%
+##amixer -D pulse -- sset Capture unmute 100%
+#
+#function hc() 
+#{
+#	cmds="$cmds , $@"
+#}
+#cmds=''
+#hc emit_hook reload
+#
+### SETTINGS
+##hc set frame_bg_transparent 100
+##hc set frame_border_width 0
+##hc set window_border_width 0
+##hc set window_border_inner_width 0
+##hc set frame_gap 0
+##hc set frame_padding 0
+##hc set window_gap 0
+##hc set snap_distance 24
+##hc set snap_gap 0
+##hc set always_show_frame 09fbc00
+##hc set default_frame_layout 2
+##hc set focus_follows_mouse 1
+##hc set raise_on_click 1
+##hc set raise_on_focus 0
+#
+### BASIC SETTINGS
+##hc rename default F1 || true
+##hc add F2
+##hc add F3
+##hc set_layout max
+#
+## RESET KEY BINDINGS
+#hc keyunbind --all
+#m=Mod4
+#
+## KEYS: WINDOW MANAGER MANAGEMENT
+#hc keybind $m-Control-Shift-q quit
+#hc keybind $m-Control-Delete reload
+#hc keybind $m-Alt-Escape reload
+#hc keybind $m-Escape close
+#hc keybind $m-Control-d toggle focus_follows_mouse
+#hc keybind $m-Control-r spawn /home/jlai/jkl/bin/t440s/hcrules
+#
+## KEYS: WINDOW MANAGER HACKS
+#hc keybind $m-q spawn xterm -e 'herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient remove && herbstclient floating off && herbstclient set_layout max'
+#
+## KEYS: APPLICATION
+#hc keybind $m-c spawn urxvt -e screen
+#
+## KEYS: MANAGE INDEXES
+#hc keybind $m-Tab use_index +1
+#hc keybind $m-Shift-Tab use_index -1
+#hc keybind $m-Right use_index +1
+#hc keybind $m-Left use_index -1
+#hc keybind $m-Shift-a move_index -1
+#hc keybind $m-Shift-d move_index +1
+#hc keybind $m-Shift-F1 use_index F1
+#hc keybind $m-Shift-F2 use_index F2
+#hc keybind $m-Shift-F3 use_index F3
+#
+## KEYS: CHOOSE LAYOUT GRID
+#hc keybind $m-z cycle_layout
+#hc keybind $m-Shift-z set_layout max
+#hc keybind $m-Control-z set_layout grid
+#
+## KEYS: ADJUST LAYOUT GRID
+#hc keybind $m-s split vertical 0.5
+#hc keybind $m-Shift-s split horizontal 0.5
+#hc keybind $m-r remove
+##hc keybind $m-d cycle_all +1
+##hc keybind $m-Shift-n cycle_all +1
+##hc keybind $m-Shift-p cycle_all -1
+#hc keybind $m-x cycle
+#hc keybind $m-n cycle +1
+#hc keybind $m-p cycle -1
+#hc keybind $m-h focus left
+#hc keybind $m-j focus down
+#hc keybind $m-k focus up
+#hc keybind $m-l focus right
+#hc keybind $m-Control-h shift left
+#hc keybind $m-Control-j shift down
+#hc keybind $m-Control-k shift up
+#hc keybind $m-Control-l shift right
+#
+## KEYS: RESIZE GRID
+#hc keybind $m-Shift-h resize left +0.01
+#hc keybind $m-Shift-j resize down +0.01
+#hc keybind $m-Shift-k resize up +0.01
+#hc keybind $m-Shift-l resize right +0.01
+#
+## KEYS: CHOOSE MISCELLANEOUS LAYOUT TYPES
+#hc keybind $m-F1 floating toggle
+#hc keybind $m-F2 fullscreen toggle
+#hc keybind $m-F3 pseudotile toggle
+#hc keybind $m-f floating toggle
+#hc keybind $m-Shift-f fullscreen toggle
+#hc keybind $m-Control-f pseudotile toggle
+#hc keybind $m-Shift-x fullscreen toggle
+#
+## KEYS: MOUSE BINDINGS
+#hc mouseunbind --all
+#hc mousebind $m-Button1 move
+#hc mousebind $m-Button2 resize
+#hc mousebind $m-Button3 zoom
+#hc mousebind $m-Control-Button1 zoom
+#hc mousebind $m-Shift-Button1 resize
+#
+## INITIALIZE HERBSTLUFTWM BINDINGS
+#herbstclient chain $cmds &
+#
+### RULES
+##herbstclient unrule -F
+##herbstclient rule focus=off pseudotile=off manage=on # normal rules
+##herbstclient rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' focus=off pseudotile=on
+##herbstclient rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK)' manage=on
+##herbstclient rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on manage=on
+##herbstclient rule title='statusbar_info;sleep 5;exit' pseudotile=on manage=off focus=on
+##herbstclient rule title='statusbar_hcwin;sleep 5;exit' pseudotile=on manage=off focus=on
+##herbstclient rule class='TkFDialog' pseudotile=off
+##herbstclient rule class='sxiv' focus=off fullscreen=off
+#

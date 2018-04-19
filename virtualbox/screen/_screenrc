@@ -7,7 +7,7 @@ encoding jis
 
 shelltitle 'bash'
 hardstatus alwayslastline
-hardstatus string '%{= kG} >> %?%-w%?%{= gk}%n %t%{= kG}%?%+w %=%D %d %M %Y %c:%s '
+hardstatus string '%{= kG} >> %?%-w%?%{= Gk}%n %t%{= kG}%?%+w %=%D %d %M %Y %c:%s '
 startup_message off
 #sessionname jason
 msgwait 0
