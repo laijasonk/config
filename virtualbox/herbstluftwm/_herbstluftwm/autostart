@@ -86,6 +86,16 @@ herbstclient mousebind $m-Button2 resize
 herbstclient mousebind $m-Button3 zoom
 herbstclient mousebind $m-Control-Button1 zoom
 herbstclient mousebind $m-Shift-Button1 resize
+
+# DISABLE SCREENSAVER/BLANKING
+/usr/bin/xset -dpms
+/usr/bin/xset s noblank
+/usr/bin/xset s off
+/usr/bin/xset m 4 0
+/usr/bin/xset m 4 0
+/usr/bin/xset m 4 0
+/usr/bin/setxkbmap -option ctrl:nocaps
+
 #
 ## INITIALIZE HERBSTLUFTWM BINDINGS
 #herbstclient chain $cmds &
