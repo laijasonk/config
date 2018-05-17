@@ -87,6 +87,15 @@ herbstclient mousebind $m-Button3 zoom
 herbstclient mousebind $m-Control-Button1 zoom
 herbstclient mousebind $m-Shift-Button1 resize
 
+# KEYS: VBOX SPECIFIC
+herbstclient keybind $m-Shift-F1 use_index F1
+herbstclient keybind $m-F12 spawn /home/laij/jkl/bin/vbox/1920x1020.sh
+herbstclient keybind $m-F11 spawn /home/laij/jkl/bin/vbox/1600x900.sh
+herbstclient keybind $m-F10 spawn /home/laij/jkl/bin/vbox/1280x720.sh
+herbstclient keybind $m-F9 spawn /home/laij/jkl/bin/vbox/1024x768.sh
+herbstclient keybind $m-F8 spawn /home/laij/jkl/bin/vbox/800x600.sh
+herbstclient keybind $m-F7 spawn /home/laij/jkl/bin/vbox/640x480.sh
+
 # DISABLE SCREENSAVER/BLANKING
 /usr/bin/xset -dpms
 /usr/bin/xset s noblank
