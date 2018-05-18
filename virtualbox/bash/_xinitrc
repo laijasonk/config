@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export MOZ_NO_REMOTE=1
+#export XSESSION="ratpoison"
+#exec "ratpoison"
+#export XSESSION="musca"
+#exec "musca"
+export XSESSION="herbstluftwm"
+exec herbstluftwm --locked
+exec 
+
+/usr/bin/xset m 4 0
+/usr/bin/xset m 4 0
+/usr/bin/xset m 4 0

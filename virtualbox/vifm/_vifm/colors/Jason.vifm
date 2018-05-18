@@ -1,0 +1,42 @@
+" Default = -1 = None, can be used for transparency or default color
+" Black = 0
+" Red = 1
+" Green = 2
+" Yellow = 3
+" Blue = 4
+" Magenta = 5
+" Cyan = 6
+" White = 7
+
+" LightBlack
+" LightRed
+" LightGreen
+" LightYellow
+" LightBlue
+" LightMagenta
+" LightCyan
+" LightWhite
+
+" bold
+" underline
+" reverse or inverse
+" standout
+" none
+
+highlight Win cterm=none ctermfg=yellow ctermbg=-1
+highlight Directory cterm=bold ctermfg=blue ctermbg=-1
+highlight Link cterm=bold ctermfg=yellow ctermbg=-1
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=-1
+highlight Socket cterm=bold ctermfg=magenta ctermbg=-1
+highlight Device cterm=bold ctermfg=red ctermbg=-1
+highlight Fifo cterm=bold ctermfg=cyan ctermbg=-1
+highlight Executable cterm=bold ctermfg=green ctermbg=-1
+highlight Selected cterm=bold ctermfg=magenta ctermbg=-1
+highlight CurrLine cterm=bold ctermfg=white ctermbg=black
+highlight TopLine cterm=none ctermfg=black ctermbg=blue
+highlight TopLineSel cterm=bold ctermfg=white ctermbg=blue
+highlight StatusLine cterm=bold ctermfg=cyan ctermbg=black
+highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=-1
+highlight CmdLine cterm=none ctermfg=white ctermbg=-1
+highlight ErrorMsg cterm=none ctermfg=red ctermbg=-1
+highlight Border cterm=none ctermfg=black ctermbg=-1

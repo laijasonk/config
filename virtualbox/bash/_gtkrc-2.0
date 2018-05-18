@@ -1,0 +1,2 @@
+#include "/home/jason/.themes/Default/gtk-3.0/gtkrc"
+include "/home/jason/.themes/Outcrop/gtk-2.0/gtkrc"

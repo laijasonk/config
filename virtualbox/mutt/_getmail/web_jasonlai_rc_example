@@ -1,0 +1,21 @@
+[retriever]
+type = SimplePOP3SSLRetriever
+server = box851.bluehost.com 
+username = webmaster@jasonlai.com
+password = <password>
+
+[destination]
+type = MDA_external
+path = /usr/bin/procmail
+unixfrom = True
+
+#[filter]
+#type = Filter_external
+#path = /usr/bin/spamassassin
+
+[options]
+verbose = 1
+received = false
+delivered_to = false
+delete = true
+read_all = true
