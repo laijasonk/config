@@ -18,7 +18,7 @@ set incsearch
 set scrolloff=4
 set slowfs=curlftpfs
 set statusline="  %t%= %A %10u:%-7g %15s %20d  "
-command! Q :execute '!echo %d > ~/.vifm/lastdir' | quit
+command! Q :execute '!echo "%d" > ~/.vifm/lastdir' | quit
 nmap ZZ :Q<cr>
 
 " Pdf

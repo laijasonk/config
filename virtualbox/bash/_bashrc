@@ -40,7 +40,7 @@ vifm()
     # "command" prevents recursive call
     command vifm "$@"
     if [ -f ~/.vifm/lastdir ]; then
-        cd `cat ~/.vifm/lastdir`
+        cd "$(cat ~/.vifm/lastdir)"
     fi
 }
 
