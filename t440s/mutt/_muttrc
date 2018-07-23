@@ -36,8 +36,10 @@ hdr_order Date: From: User-Agent: X-Mailer To: Cc: Reply-To: Subject:
                        
 #======================================================#
 # MISCELLANEOUS KEYBINDINGS
-macro index \cb |urlview\n 'call urlview to extract URLs out of a message'
-macro pager \cb |urlview\n 'call urlview to extract URLs out of a message'
+#macro index \cb |urlview\n 'call urlview to extract URLs out of a message'
+#macro pager \cb |urlview\n 'call urlview to extract URLs out of a message'
+macro index \cb |extract_url\n 'call extract_url to extract URLs out of a message'
+macro pager \cb |extract_url\n 'call extract_url to extract URLs out of a message'
 
 # HACK-ISH BACKSPACE FIX (where  is CTRL-V Backspace)
 bind index,pager  previous-line
