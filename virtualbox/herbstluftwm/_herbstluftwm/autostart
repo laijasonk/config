@@ -29,8 +29,8 @@ hc set default_frame_layout 2
 hc set focus_follows_mouse 1
 hc set raise_on_click 1
 hc set raise_on_focus 0
-hc set_layout max
 hc pad 0 0 0 0 0
+#hc set_layout max # gives an error when ran in autostart
 
 m=Mod4
 hc keybind $m-c spawn urxvt -e screen
