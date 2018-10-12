@@ -2,10 +2,4 @@
 # This file is sourced by bash for login shells.  The following line
 # runs your .bashrc and is recommended by the bash info pages.
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] \
-    && sleep 1 \
-    && sudo mount /home/laij/jkl \
-    && sudo mount /home/laij/projects \
-    && exec startx \
-    && sleep 5 \
-    && /home/laij/.herbstluftwm/autostart
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
