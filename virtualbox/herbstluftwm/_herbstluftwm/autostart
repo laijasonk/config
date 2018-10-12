@@ -1,6 +1,8 @@
 #!/bin/bash
+
 feh --bg-scale /home/laij/jkl/config/t440s/bash/_mosaic.png
-herbstluftwm set_layout max
+herbstclient set_layout max
+herbstclient pad 0 0 0 0 0
 
 # SETTINGS
 herbstclient set frame_bg_transparent 100

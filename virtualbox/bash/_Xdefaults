@@ -17,9 +17,10 @@ xterm*font:			    9x15
 xterm*faceName:		    xos4 Terminus:size=14:antialias=True
 xterm*letterSpace:      1
 xterm*boldfont:         false
-XTerm*boldMode:         false
-XTerm*background:		#000000
-XTerm*background:		#FFFFFF
+xterm*boldMode:         false
+xterm*background:		#000000
+xterm*foreground:		#FFFFFF
+
 #xterm*inheritPixmap:	true
 #xterm*scrollBar:		false
 #xterm*internalBorder:		0
