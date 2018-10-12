@@ -1,4 +1,4 @@
-urxvt*font:		        xft:Terminus:size=16:antialias=True
+urxvt*font:		        xft:Terminus:size=14:antialias=True
 #urxvt*font:		        xft:Terminus:size=17:antialias=True
 urxvt*letterSpace:      1
 urxvt*inheritPixmap:    true
@@ -14,10 +14,12 @@ urxvt*scrollTtyKeypress:true
 urxvt.imLocale:         en_US.UTF-8
 
 xterm*font:			    9x15
-xterm*faceName:		    xos4 Terminus:size=12:antialias=True
+xterm*faceName:		    xos4 Terminus:size=14:antialias=True
 xterm*letterSpace:      1
 xterm*boldfont:         false
 XTerm*boldMode:         false
+XTerm*background:		#000000
+XTerm*background:		#FFFFFF
 #xterm*inheritPixmap:	true
 #xterm*scrollBar:		false
 #xterm*internalBorder:		0
