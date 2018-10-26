@@ -29,7 +29,7 @@ highlight Link cterm=bold ctermfg=yellow ctermbg=-1
 highlight BrokenLink cterm=bold ctermfg=red ctermbg=-1
 highlight Socket cterm=bold ctermfg=magenta ctermbg=-1
 highlight Device cterm=bold ctermfg=red ctermbg=-1
-highlight Fifo cterm=bold ctermfg=cyan ctermbg=-1
+highlight Fifo cterm=bold ctermfg=blue ctermbg=-1
 highlight Executable cterm=bold ctermfg=green ctermbg=-1
 highlight Selected cterm=bold ctermfg=magenta ctermbg=-1
 highlight CurrLine cterm=bold ctermfg=white ctermbg=black
