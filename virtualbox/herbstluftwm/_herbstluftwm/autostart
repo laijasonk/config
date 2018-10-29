@@ -10,6 +10,8 @@ hc emit_hook reload
 hc keyunbind --all
 
 feh --bg-scale /home/laij/jkl/config/t440s/bash/_mosaic.png
+#feh --bg-scale /home/laij/jkl/config/t440s/bash/_wallpaper.jpg
+#feh --bg-scale /home/laij/jkl/config/t440s/bash/_wallpaper2.jpg
 
 # keybindings
 Mod=Mod4   # Use the super key as the main modifier
