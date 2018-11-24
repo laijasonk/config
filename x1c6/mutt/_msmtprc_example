@@ -1,0 +1,25 @@
+# DEFAULT (works with ASU and UW)
+account default
+host smtp.gmail.com
+port 587
+protocol smtp
+from jlai@uwyo.edu
+user laijasonk@gmail.com
+password <password>
+auth plain
+tls on
+tls_starttls on
+tls_certcheck off
+
+# DODGEITT (GMAIL VERSION)
+account dodgeitt
+host smtp.gmail.com
+port 587
+protocol smtp
+from dodgeitt@gmail.com
+user dodgeitt@gmail.com
+password <password>
+auth on
+tls on
+tls_trust_file /home/jason/.mutt/cert.pem
+

@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-scale '/hdd/jkl/config/t440s/bash/_mosaic.png' 

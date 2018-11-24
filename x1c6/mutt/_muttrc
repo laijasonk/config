@@ -1,0 +1,73 @@
+#======================================================#
+set realname = "Lai, Jason"
+set from = "jason.lai@bcm.edu"
+set use_from = yes
+set envelope_from ="yes"
+set edit_headers = "yes"
+set editor = "vim -C '+/^$'"
+
+# Use msmtp rather than sendmail. Check that 
+# the path is correct for your system:
+set sendmail="/usr/bin/msmtp"
+
+# If not set in ~/.bashrc:
+set spoolfile = /var/spool/mail/jason
+
+#======================================================#
+# Folders
+set folder="$HOME/.mutt/mail"      # Local mailboxes stored here
+set record="+sent"           # Where to store sent messages
+set postponed="+postponed"   # Where to store draft messages
+set mbox_type=mbox           # Mailbox type
+set move=no                  # Don't move mail from spool
+
+#======================================================#
+# Watch these mailboxes for new mail, useful only if 
+# Procmail or Maildrop is used to sort mail.
+mailboxes ! +slrn +fetchmail +mutt
+set sort_browser=alpha    # Sort mailboxes by alpha(bet)
+auto_view text/html
+
+#======================================================#
+# What to show and order of headers
+ignore *
+unignore Date: From: User-Agent: X-Mailer To: Cc: Reply-To: Subject:
+hdr_order Date: From: User-Agent: X-Mailer To: Cc: Reply-To: Subject:
+                       
+#======================================================#
+# MISCELLANEOUS KEYBINDINGS
+#macro index \cb |urlview\n 'call urlview to extract URLs out of a message'
+#macro pager \cb |urlview\n 'call urlview to extract URLs out of a message'
+macro index \cb |extract_url\n 'call extract_url to extract URLs out of a message'
+macro pager \cb |extract_url\n 'call extract_url to extract URLs out of a message'
+
+# HACK-ISH BACKSPACE FIX (where  is CTRL-V Backspace)
+bind index,pager  previous-line
+
+#======================================================#
+# COLOR OPTIONS
+#color normal    white default #weird fix...comment out for true white
+color attachment brightyellow default
+color hdrdefault cyan default
+color indicator black cyan
+color markers   brightred default
+color quoted    green default
+color signature cyan default
+color status    brightgreen blue
+color tilde     blue default
+color tree      red default
+
+color index     red black ~T 
+color index     magenta black ~T
+
+#color header   brightgreen black ^From:
+#color header   brightcyan black ^To:
+#color header   brightcyan black ^Reply-To:
+#color header   brightcyan black ^Cc:
+#color header   brightblue black ^Subject:
+
+color body      brightred black [\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+
+color body      brightblue black (https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+
+set markers=no
+
+reply-hook '~s ^$' '<edit-subject><kill-line>no subject<enter>'

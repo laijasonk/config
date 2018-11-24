@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export MOZ_NO_REMOTE=1
+export XSESSION="herbstluftwm"
+exec "herbstluftwm"
+
+/usr/bin/xset m 4 0
+/usr/bin/xset m 4 0
+/usr/bin/xset m 4 0
