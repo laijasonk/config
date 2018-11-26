@@ -7,3 +7,4 @@ exec "herbstluftwm"
 /usr/bin/xset m 4 0
 /usr/bin/xset m 4 0
 /usr/bin/xset m 4 0
+/usr/bin/xset -b
