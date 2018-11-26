@@ -56,6 +56,7 @@ resetConfig $(pwd)/firefox/profiles.ini ~/.mozilla/firefox/profiles.ini
 
 # herbstluftwm
 resetConfig $(pwd)/herbstluftwm/_herbstluftwm/autostart ~/.herbstluftwm/autostart
+resetConfig $(pwd)/herbstluftwm/_herbstluftwm/autostart ~/.config/herbstluftwm/autostart
 
 ## mplayer
 #resetConfig $(pwd)/mplayer/_mplayer/config ~/.mplayer/config

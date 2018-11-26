@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # INITIALIZE
-feh --bg-scale /hdd/jkl/config/t440s/bash/_mosaic.png
+feh --bg-scale /hdd/jkl/config/x1c6/bash/_mosaic.png
 xbacklight =20 -steps 1
-amixer -D pulse -- sset Master unmute 20%
-amixer -D pulse -- sset Capture unmute 100%
+#amixer -D pulse -- sset Master unmute 20%
+#amixer -D pulse -- sset Capture unmute 100%
 
 function hc() 
 {
@@ -45,7 +45,7 @@ hc keybind $m-Control-Delete reload
 hc keybind $m-Alt-Escape reload
 hc keybind $m-Escape close
 hc keybind $m-Control-d toggle focus_follows_mouse
-hc keybind $m-Control-r spawn /home/jason/jkl/bin/t440s/hcrules
+hc keybind $m-Control-r spawn /home/jason/jkl/bin/x1c6/hcrules
 hc keybind $m-y spawn /usr/bin/mpv /home/jason/youtube/blank.jpg
 
 # KEYS: WINDOW MANAGER HACKS
@@ -61,20 +61,20 @@ hc keybind $m-q spawn xterm -e 'herbstclient remove && herbstclient remove && he
 
 # KEYS: APPLICATION
 hc keybind $m-c spawn urxvt -e screen
-hc keybind $m-v spawn /home/jason/jkl/bin/t440s/vimperator
+hc keybind $m-v spawn /home/jason/jkl/bin/x1c6/vimperator
 hc keybind $m-Shift-v spawn firefox-bin -P
 hc keybind $m-Alt-v spawn google-chrome-stable --force-device-scale-factor=1
-hc keybind $m-m spawn /home/jason/jkl/bin/t440s/jlpdf z
-#hc keybind $m-m spawn /home/jason/jkl/bin/t400s/jlpdf m
+hc keybind $m-m spawn /home/jason/jkl/bin/x1c6/jlpdf z
+#hc keybind $m-m spawn /home/jason/jkl/bin/x1c6/jlpdf m
 hc keybind $m-i spawn /home/jason/jkl/repo/sxiv-jkl/scripts/jlsxiv
-hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
-hc keybind $m-Shift-p spawn /home/jason/jkl/bin/t440s/jlscreenshot
+hc keybind $m-Control-Shift-p spawn /home/jason/jkl/bin/x1c6/jlscreenshot
+hc keybind $m-Shift-p spawn /home/jason/jkl/bin/x1c6/jlscreenshot
 
 # KEYS: SPECIAL INFORMATION
-hc keybind $m-Shift-1 spawn /home/jason/jkl/bin/t440s/bindmenu
-hc keybind $m-Shift-semicolon spawn /home/jason/jkl/bin/t440s/hcdmenu
-hc keybind $m-a spawn /home/jason/jkl/bin/t440s/statusbar hcinfo
-hc keybind $m-w spawn /home/jason/jkl/bin/t440s/statusbar hcwin
+hc keybind $m-Shift-1 spawn /home/jason/jkl/bin/x1c6/bindmenu
+hc keybind $m-Shift-semicolon spawn /home/jason/jkl/bin/x1c6/hcdmenu
+hc keybind $m-a spawn /home/jason/jkl/bin/x1c6/statusbar hcinfo
+hc keybind $m-w spawn /home/jason/jkl/bin/x1c6/statusbar hcwin
 
 # KEYS: MANAGE INDEXES
 hc keybind $m-Tab use_index +1
@@ -173,18 +173,21 @@ wmname LG3D
 rm -Rf /hdd/.trash/* /hdd/.trash/.* /home/jason/.trash/* /home/jason/.trash/.*
 rm /home/jason/.serverauth* /home/jason/.bash_history /home/jason/.xaut*
 
-# DISABLE TOUCHPAD TAP/SCROLL WHILE TYPING
-killall syndaemon
-if [[ -z $(ps -A | grep "syndaemon") ]]; then syndaemon -i 0.5 -t -d; fi
+## DISABLE TOUCHPAD TAP/SCROLL WHILE TYPING
+#killall syndaemon
+#if [[ -z $(ps -A | grep "syndaemon") ]]; then syndaemon -i 0.5 -t -d; fi
 
-# DISABLE SCREENSAVER/BLANKING
-/usr/bin/xset -dpms
-/usr/bin/xset s noblank
-/usr/bin/xset s off
-/usr/bin/xset m 4 0
-/usr/bin/xset m 4 0
-/usr/bin/xset m 4 0
-/usr/bin/setxkbmap -option ctrl:nocaps
+## DISABLE SCREENSAVER/BLANKING
+#/usr/bin/xset -dpms
+#/usr/bin/xset s noblank
+#/usr/bin/xset s off
+#/usr/bin/xset m 4 0
+#/usr/bin/xset m 4 0
+#/usr/bin/xset m 4 0
+
+# XORG-DRIVERS SETTINGS
+#/usr/bin/setxkbmap -option ctrl:nocaps
+/usr/bin/xset -b
 
 # RULES
 herbstclient unrule -F
