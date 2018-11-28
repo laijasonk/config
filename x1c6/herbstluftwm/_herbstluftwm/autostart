@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # INITIALIZE
-feh --bg-scale /hdd/jkl/config/x1c6/bash/_mosaic.png
+feh --bg-scale /home/jason/jkl/config/x1c6/bash/_mosaic.png
 xbacklight =20 -steps 1
 #amixer -D pulse -- sset Master unmute 20%
 #amixer -D pulse -- sset Capture unmute 100%
@@ -170,7 +170,7 @@ herbstclient chain $cmds &
 wmname LG3D
 
 # INITIAL CLEANUP
-rm -Rf /hdd/.trash/* /hdd/.trash/.* /home/jason/.trash/* /home/jason/.trash/.*
+rm -Rf /home/jason/.trash/* /home/jason/.trash/.*
 rm /home/jason/.serverauth* /home/jason/.bash_history /home/jason/.xaut*
 
 ## DISABLE TOUCHPAD TAP/SCROLL WHILE TYPING
