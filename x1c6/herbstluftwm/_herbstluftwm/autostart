@@ -3,8 +3,8 @@
 # INITIALIZE
 feh --bg-scale /home/jason/jkl/config/x1c6/bash/_mosaic.png
 xbacklight =20 -steps 1
-#amixer -D pulse -- sset Master unmute 20%
-#amixer -D pulse -- sset Capture unmute 100%
+amixer -D pulse -- sset Master mute 0%
+#amixer -D pulse -- sset Capture unmute 0%
 
 function hc() 
 {
@@ -188,6 +188,8 @@ rm /home/jason/.serverauth* /home/jason/.bash_history /home/jason/.xaut*
 # XORG-DRIVERS SETTINGS
 #/usr/bin/setxkbmap -option ctrl:nocaps
 /usr/bin/xset -b
+/usr/bin/xset s off
+/usr/bin/xset -dpms
 
 # RULES
 herbstclient unrule -F
@@ -199,3 +201,4 @@ herbstclient rule title='statusbar_info;sleep 5;exit' pseudotile=on manage=off f
 herbstclient rule title='statusbar_hcwin;sleep 5;exit' pseudotile=on manage=off focus=on
 herbstclient rule class='TkFDialog' pseudotile=off
 herbstclient rule class='sxiv' focus=off fullscreen=off
+/home/jason/jkl/bin/x1c6/synaptics_setup.sh
