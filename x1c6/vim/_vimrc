@@ -21,6 +21,7 @@ set tabpagemax=100
 filetype indent on
 set directory=~/.swp//
 set wildmode=longest,list 
+set visualbell
 
 set textwidth=72
 set fo-=t
