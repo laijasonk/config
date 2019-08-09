@@ -54,6 +54,8 @@ alias rm='rmxm'
 source /etc/profile
 export PATH=$PATH:/sbin:/usr/sbin:$HOME/jkl/bin/x1c6:$HOME/jkl/bin
 export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:$HOME/jkl/bin/x1c6:$HOME/jkl/bin
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 MAIL=/var/spool/mail/jason && export MAIL
 unset PROMPT_COMMAND
 if [[ ${EUID} == 0 ]] ; then
