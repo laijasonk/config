@@ -2,7 +2,7 @@ browser "elinks -config-dir /home/jason/.elinks/ -config-file newsbeuter.conf %u
 color article default default
 color listnormal_unread default default bold
 color listfocus_unread white blue bold
-max-items 60
+max-items 200
 
 # BLACK BACKGROUND ON ARTICLES
 #color article default black

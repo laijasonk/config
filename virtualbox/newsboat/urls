@@ -11,7 +11,7 @@ http://lxer.com/module/newswire/headlines.rss linux
 http://lwn.net/headlines/rss linux
 http://www.linuxinsider.com/perl/syndication/rssfull.pl linux
 http://www.technewsworld.com/perl/syndication/rssfull.pl linux
-http://www.topix.com/rss/tech/linux linux
+#http://www.topix.com/rss/tech/linux linux
 https://www.linux.com/rss/feeds.php linux
 #http://www.gentoo.org/rdf/en/gentoo-news.rdf linux
 #http://planet.gentoo.org/rss20.xml linux
@@ -35,20 +35,20 @@ https://www.linux.com/rss/feeds.php linux
 #/
 #http://www.jasonlai.com/kindle/dearabby.xml news
 http://www.jasonlai.com/kindle/top.xml news
-http://www.jasonlai.com/kindle/nation.xml news
-http://www.jasonlai.com/kindle/world.xml news
-http://www.jasonlai.com/kindle/business.xml news
-http://www.jasonlai.com/kindle/sports.xml news
-http://www.jasonlai.com/kindle/entertain.xml news
-http://www.jasonlai.com/kindle/health.xml news
-http://www.jasonlai.com/kindle/tech.xml news
-#http://www.jasonlai.com/kindle/politics.xml news
-#http://www.jasonlai.com/kindle/elections.xml news
-http://www.jasonlai.com/kindle/spotlight.xml news
-/
-http://www.jasonlai.com/kindle/tempe.xml news
-http://www.jasonlai.com/kindle/arizona.xml news
-http://www.jasonlai.com/kindle/laramie.xml news
-http://www.jasonlai.com/kindle/wyoming.xml news
-http://www.jasonlai.com/kindle/houston.xml news
-http://www.jasonlai.com/kindle/texas.xml news
+#http://www.jasonlai.com/kindle/nation.xml news
+#http://www.jasonlai.com/kindle/world.xml news
+#http://www.jasonlai.com/kindle/business.xml news
+#http://www.jasonlai.com/kindle/sports.xml news
+#http://www.jasonlai.com/kindle/entertain.xml news
+#http://www.jasonlai.com/kindle/health.xml news
+#http://www.jasonlai.com/kindle/tech.xml news
+##http://www.jasonlai.com/kindle/politics.xml news
+##http://www.jasonlai.com/kindle/elections.xml news
+#http://www.jasonlai.com/kindle/spotlight.xml news
+#/
+#http://www.jasonlai.com/kindle/tempe.xml news
+#http://www.jasonlai.com/kindle/arizona.xml news
+#http://www.jasonlai.com/kindle/laramie.xml news
+#http://www.jasonlai.com/kindle/wyoming.xml news
+#http://www.jasonlai.com/kindle/houston.xml news
+#http://www.jasonlai.com/kindle/texas.xml news
