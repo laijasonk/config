@@ -1,4 +1,5 @@
 set vicmd=vim
+set vifminfo=
 set trash
 set history=100
 set nofollowlinks
