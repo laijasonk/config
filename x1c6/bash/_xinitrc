@@ -10,3 +10,5 @@ exec "herbstluftwm"
 /usr/bin/xset m 4 0
 /usr/bin/xset m 4 0
 /usr/bin/xset -b
+/usr/bin/redshift -x
+/usr/bin/redshift -O 3500K

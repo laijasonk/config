@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-scale '/home/laij/jkl/config/t440s/bash/_mosaic.png' 
+'feh' '--bg-scale' '/home/laij/jkl/config/t440s/bash/_mosaic.png' 

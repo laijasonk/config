@@ -77,6 +77,10 @@ resetConfig $(pwd)/mutt/_urlview ~/.urlview
 resetConfig $(pwd)/newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/urls ~/.newsbeuter/urls
 
+# newsboat
+resetConfig $(pwd)/newsboat/config ~/.newsboat/config
+resetConfig $(pwd)/newsboat/urls ~/.newsboat/urls
+
 ## pentadactyl
 #resetConfig $(pwd)/pentadactyl/_pentadactylrc ~/.pentadactylrc
 

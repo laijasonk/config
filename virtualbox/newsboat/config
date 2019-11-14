@@ -1,0 +1,55 @@
+browser "elinks -config-dir /home/jason/.elinks/ -config-file newsbeuter.conf %u"
+color article default default
+color listnormal_unread default default bold
+color listfocus_unread white blue bold
+max-items 200
+
+# BLACK BACKGROUND ON ARTICLES
+#color article default black
+
+# HOW LONG TO KEEP FILES
+#keep-articles-days 30
+#max-items 47
+
+define-filter "PubMed" "tags # \"pub\"" 
+define-filter "Science" "tags # \"sci\"" 
+define-filter "Barf" "tags # \"barf\"" 
+define-filter "HubMed" "tags # \"hub\"" 
+define-filter "News" "tags # \"news\"" 
+define-filter "Linux" "tags # \"linux\""
+define-filter "Manga" "tags # \"manga\""
+define-filter "Other" "tags # \"other\""
+
+unbind-key s
+unbind-key ^K
+unbind-key O
+unbind-key l
+unbind-key ^B
+unbind-key h
+unbind-key j
+unbind-key k
+unbind-key l
+
+bind-key q hard-quit
+bind-key LEFT quit
+bind-key RIGHT open
+bind-key ' select-filter
+bind-key BACKSPACE reload
+bind-key \ mark-feed-read
+
+bind-key LEFT clear-filter feedlist
+bind-key LEFT next-dialog articlelist
+bind-key LEFT quit article
+bind-key RIGHT open-in-browser article
+bind-key ENTER open-in-browser article
+bind-key q quit help
+
+bind-key j down
+bind-key k up
+bind-key h quit
+bind-key h clear-filter feedlist
+bind-key h next-dialog articlelist
+bind-key h quit article
+bind-key l open
+bind-key l open-in-browser article
+bind-key ; mark-feed-read

@@ -7,3 +7,5 @@ exec herbstluftwm --locked
 #/usr/bin/xset m 4 0
 #/usr/bin/xset m 4 0
 #/usr/bin/xset m 4 0
+/usr/bin/xset -b
+/usr/bin/xset s off -dpms
