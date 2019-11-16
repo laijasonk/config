@@ -203,4 +203,4 @@ herbstclient rule class='TkFDialog' pseudotile=off
 herbstclient rule class='sxiv' focus=off fullscreen=off
 /home/jason/jkl/bin/x1c6/synaptics_setup.sh
 /usr/bin/redshift -x
-/usr/bin/redshift -O 3500k
+/usr/bin/redshift -O 3000k
