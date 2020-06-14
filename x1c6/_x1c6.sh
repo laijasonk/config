@@ -31,6 +31,7 @@ read -p "WARNING: Completely resets config for home directory [CTRL-C to quit] "
 
 # bash
 resetConfig $(pwd)/bash/_Xdefaults ~/.Xdefaults
+resetConfig $(pwd)/bash/_Xresources ~/.Xresources
 resetConfig $(pwd)/bash/_bash_logout ~/.bash_logout
 resetConfig $(pwd)/bash/_bash_profile ~/.bash_profile
 resetConfig $(pwd)/bash/_bashrc ~/.bashrc
