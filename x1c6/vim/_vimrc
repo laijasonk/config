@@ -1,6 +1,6 @@
 syntax on
-colorscheme desert
 "colorscheme peachpuff
+colorscheme desert
 
 set nocompatible
 set term=screen-256color
@@ -43,3 +43,5 @@ set nocursorline
 autocmd BufRead,BufNewFile *.prn set noexpandtab
 autocmd FileType cpp set tabstop=2 | set softtabstop=2 | set shiftwidth=2 | set textwidth=120 | set noexpandtab
 autocmd FileType python set tabstop=4 |set softtabstop=4 | set shiftwidth=4 | set expandtab
+
+colorscheme desert

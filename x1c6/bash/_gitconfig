@@ -1,6 +1,6 @@
 [user]
 	name = Jason K Lai
-	email = jklai@asu.edu
+	email = laijasonk@gmail.com
 [core]
 	editor = vim
 	autocrlf = input
@@ -13,3 +13,4 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[usethis]
