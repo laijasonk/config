@@ -51,6 +51,7 @@ fi
 
 # miscellaneous options
 alias rm='rmxm'
+alias wine64='WINEPREFIX="/home/jason/.wine64"'
 source /etc/profile
 export PATH=$PATH:/sbin:/usr/sbin:$HOME/jkl/bin/x1c6:$HOME/jkl/bin
 export ROOTPATH=$ROOTPATH:/sbin:/usr/sbin:$HOME/jkl/bin/x1c6:$HOME/jkl/bin
