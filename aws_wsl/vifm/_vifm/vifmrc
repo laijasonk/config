@@ -1,0 +1,45 @@
+set vicmd=vim
+set trash
+set history=100
+set nofollowlinks
+set fastrun
+" set sortnumbers
+set undolevels=100
+set novimhelp
+set norunexec
+set noiec
+colorscheme Jason.vifm
+set timefmt=%Y/%m/%d\ (%H:%M)
+set wildmenu
+set ignorecase
+set smartcase
+set nohlsearch
+set incsearch
+set scrolloff=4
+set slowfs=curlftpfs
+set statusline="  %t%= %A %10u:%-7g %15s %20d  "
+command! Q :execute '!echo %d > ~/.vifm/lastdir' | quit
+nmap ZZ :Q<cr>
+
+"" Web
+filetype *.html,*.htm,*.css,*.js,*.php,*.xhtml,*.xml,*.txt vim %f
+
+filetype * vim %f
+set vifminfo=
+nmap s :shell<cr>
+nmap S :sort<cr>
+nmap w :view<cr>
+
+" Yank current directory path into the clipboard
+nmap yd :!echo %d | xclip %i<cr>
+
+" Yank current file path into the clipboard
+nmap yf :!echo %c:p | xclip %i<cr>
+
+" Example of standard two-panel file managers mappings
+nmap <f3> :!less %f<cr>
+nmap <f4> :edit<cr>
+nmap <f5> :copy<cr>
+nmap <f6> :move<cr>
+nmap <f7> :mkdir<space>
+nmap <f8> :delete<cr>
