@@ -3,6 +3,7 @@
 # INITIALIZE
 feh --bg-scale /home/jason/jkl/config/x1c6/bash/_mosaic.png
 xbacklight =20 -steps 1
+pulseaudio --start
 amixer -D pulse -- sset Master mute 0%
 #amixer -D pulse -- sset Capture unmute 0%
 
@@ -127,19 +128,32 @@ hc keybind $m-Control-f pseudotile toggle
 hc keybind $m-Shift-x fullscreen toggle
 
 ## KEYS: VOLUME CONTROLS
-hc keybind $m-equal spawn amixer -D pulse -- set Master 2%+
-hc keybind $m-minus spawn amixer -D pulse -- set Master 2%-
-hc keybind $m-grave spawn amixer -D pulse -- sset Master mute
-hc keybind $m-1 spawn amixer -D pulse -- sset Master unmute 100%
-hc keybind $m-2 spawn amixer -D pulse -- sset Master unmute 90%
-hc keybind $m-3 spawn amixer -D pulse -- sset Master unmute 80%
-hc keybind $m-4 spawn amixer -D pulse -- sset Master unmute 70%
-hc keybind $m-5 spawn amixer -D pulse -- sset Master unmute 60%
-hc keybind $m-6 spawn amixer -D pulse -- sset Master unmute 50%
-hc keybind $m-7 spawn amixer -D pulse -- sset Master unmute 40%
-hc keybind $m-8 spawn amixer -D pulse -- sset Master unmute 30%
-hc keybind $m-9 spawn amixer -D pulse -- sset Master unmute 20%
-hc keybind $m-0 spawn amixer -D pulse -- sset Master unmute 10%
+# hc keybind $m-equal spawn amixer -D pulse -- set Master 2%+
+# hc keybind $m-minus spawn amixer -D pulse -- set Master 2%-
+# hc keybind $m-grave spawn amixer -D pulse -- sset Master mute
+# hc keybind $m-1 spawn amixer -D pulse -- sset Master unmute 100%
+# hc keybind $m-2 spawn amixer -D pulse -- sset Master unmute 90%
+# hc keybind $m-3 spawn amixer -D pulse -- sset Master unmute 80%
+# hc keybind $m-4 spawn amixer -D pulse -- sset Master unmute 70%
+# hc keybind $m-5 spawn amixer -D pulse -- sset Master unmute 60%
+# hc keybind $m-6 spawn amixer -D pulse -- sset Master unmute 50%
+# hc keybind $m-7 spawn amixer -D pulse -- sset Master unmute 40%
+# hc keybind $m-8 spawn amixer -D pulse -- sset Master unmute 30%
+# hc keybind $m-9 spawn amixer -D pulse -- sset Master unmute 20%
+# hc keybind $m-0 spawn amixer -D pulse -- sset Master unmute 10%
+hc keybind $m-equal spawn amixer -- set Master 2%+
+hc keybind $m-minus spawn amixer -- set Master 2%-
+hc keybind $m-grave spawn amixer -- sset Master mute
+hc keybind $m-1 spawn amixer -- sset Master unmute 100%
+hc keybind $m-2 spawn amixer -- sset Master unmute 90%
+hc keybind $m-3 spawn amixer -- sset Master unmute 80%
+hc keybind $m-4 spawn amixer -- sset Master unmute 70%
+hc keybind $m-5 spawn amixer -- sset Master unmute 60%
+hc keybind $m-6 spawn amixer -- sset Master unmute 50%
+hc keybind $m-7 spawn amixer -- sset Master unmute 40%
+hc keybind $m-8 spawn amixer -- sset Master unmute 30%
+hc keybind $m-9 spawn amixer -- sset Master unmute 20%
+hc keybind $m-0 spawn amixer -- sset Master unmute 10%
 
 # KEYS: BACKLIGHT CONTROLS
 hc keybind $m-Control-equal spawn xbacklight +2

@@ -100,6 +100,7 @@ resetConfig $(pwd)/vifm/_vifm/vifmrc ~/.vifm/vifmrc
 resetConfig $(pwd)/vim/_vimrc ~/.vimrc
 resetConfig $(pwd)/vim/_vim/doc ~/.vim/doc
 resetConfig $(pwd)/vim/_vim/plugin ~/.vim/plugin
+resetConfig $(pwd)/vim/_vim/colors ~/.vim/colors
 
 # vimperator
 resetConfig $(pwd)/vimperator/_vimperatorrc ~/.vimperatorrc
