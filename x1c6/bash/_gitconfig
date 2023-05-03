@@ -1,6 +1,5 @@
 [user]
 	name = Jason K Lai
-	email = laijasonk@gmail.com
 [core]
 	editor = vim
 	autocrlf = input

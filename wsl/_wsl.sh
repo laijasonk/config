@@ -32,15 +32,13 @@ read -p "WARNING: Completely resets config for home directory [CTRL-C to quit] "
 # bash
 resetConfig $(pwd)/bash/_bashrc ~/.bashrc
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
+resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
 resetConfig $(pwd)/bash/_minttyrc ~/.minttyrc
 
 # elinks
 resetConfig $(pwd)/elinks/_bookmarks.html ~/.bookmarks.html
 resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
-
-# git
-resetConfig $(pwd)/git/_gitconfig ~/.gitconfig
 
 # newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
