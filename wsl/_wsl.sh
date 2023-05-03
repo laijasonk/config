@@ -39,6 +39,9 @@ resetConfig $(pwd)/elinks/_bookmarks.html ~/.bookmarks.html
 resetConfig $(pwd)/elinks/_elinks/elinks.conf ~/.elinks/elinks.conf
 resetConfig $(pwd)/elinks/_elinks/newsbeuter.conf ~/.elinks/newsbeuter.conf
 
+# git
+resetConfig $(pwd)/git/_gitconfig ~/.gitconfig
+
 # newsbeuter
 resetConfig $(pwd)/newsbeuter/_newsbeuter/config ~/.newsbeuter/config
 resetConfig $(pwd)/newsbeuter/_newsbeuter/urls ~/.newsbeuter/urls
