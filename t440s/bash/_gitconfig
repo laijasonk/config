@@ -1,6 +1,5 @@
 [user]
 	name = Jason K Lai
-	email = jklai@asu.edu
 [core]
 	editor = vim
 	autocrlf = input

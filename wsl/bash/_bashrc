@@ -134,4 +134,3 @@ vifm()
         cd `cat ~/.vifm/lastdir`
     fi
 }
-

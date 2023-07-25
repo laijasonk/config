@@ -32,6 +32,7 @@ read -p "WARNING: Completely resets config for home directory [CTRL-C to quit] "
 # bash
 resetConfig $(pwd)/bash/_bashrc ~/.bashrc
 resetConfig $(pwd)/bash/_inputrc ~/.inputrc
+resetConfig $(pwd)/bash/_gitconfig ~/.gitconfig
 resetConfig $(pwd)/bash/_minttyrc ~/.minttyrc
 
 # elinks
