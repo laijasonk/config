@@ -9,8 +9,12 @@
 # INITIALIZE
 feh --bg-scale /home/jason/jkl/config/x1c6/bash/_mosaic.png
 xbacklight =20 -steps 1
-xinput set-button-map 9 1 2 3 4 5 6 7 8 2
-xinput set-button-map 10 1 2 3 4 5 6 7 8 2
+id=$(xinput | grep 'MX Master' | grep 'pointer' | sed -e 's/^.*id=//g' -e 's/ *\[slave.*$//g')
+xinput set-button-map ${id} 1 2 3 4 5 6 7 8 2
+id=$(xinput | grep 'Logitech Wireless Mouse' | grep 'pointer' | sed -e 's/^.*id=//g' -e 's/ *\[slave.*$//g')
+xinput set-button-map ${id} 1 2 3 4 5 6 7 2 2
+id=$(xinput | grep 'MX Master 3' | grep 'pointer' | sed -e 's/^.*id=//g' -e 's/ *\[slave.*$//g')
+xinput set-button-map ${id} 1 2 3 4 5 6 7 2 2
 pulseaudio --start
 amixer -D pulse -- sset Master mute 0%
 #amixer -D pulse -- sset Capture unmute 0%
